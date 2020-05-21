@@ -1,0 +1,3121 @@
+[
+  {
+    "id": "0a45c261-93bd-4fab-bb48-6c38b4c2baae",
+    "name": "Introdução ao Rest Api com Flask",
+    "available": true,
+    "watched": true,
+    "completed": false,
+    "has_admob": false,
+    "score": null,
+    "small_cover": null,
+    "large_cover": "https://hermes.digitalinnovation.one/lessons/0be7df37-3061-4b01-9820-e2b463f36b15_large.png",
+    "large_cover_disabled": "https://hermes.digitalinnovation.one/lessons/529c5381-71f3-4e04-944e-72df06735c73_large_disabled.png",
+    "available_message": null,
+    "description": "Aprenda sobre a microframework de Python, Flask, e como usá-la para construir Rest Api.",
+    "category": {
+      "id": "80b04dbf-a15d-4de7-aa19-c1022960bada",
+      "name": "",
+      "icon": "fla",
+      "color": "#300f15"
+    },
+    "author": {
+      "id": "6beaa9ec-34d1-4acb-9be9-1114eca84bcf",
+      "name": "Rafael Galleani",
+      "company": {
+        "id": "5892b2d5-eea7-4171-83de-ea09dee11e06",
+        "name": "NEXT Engineering",
+        "year": null,
+        "category": {
+          "id": "fba1b2b1-b3b9-494a-bf8f-dc2eb7f7c417",
+          "name": "Tecnologia da informação e serviços"
+        },
+        "website": "http://www.nextengineering.pt",
+        "photo": "https://hermes.digitalinnovation.one/users/company/5892b2d5-eea7-4171-83de-ea09dee11e06.png"
+      },
+      "position": "Python Developer",
+      "photo": "https://hermes.digitalinnovation.one/users/author/photos/6beaa9ec-34d1-4acb-9be9-1114eca84bcf.png",
+      "linkedin": "https://www.linkedin.com/in/rafael-galleani/#experience-section",
+      "github": null
+    },
+    "reference": {
+      "id": "a712b287-3b0a-4495-b379-edf179bb3487",
+      "name": "Trilhas Python",
+      "author": "Eduardo Pereira",
+      "isbn": "978-85-94188-69-4",
+      "cover": "https://hermes.digitalinnovation.one/books/a712b287-3b0a-4495-b379-edf179bb3487.png"
+    },
+    "next_content": "f2b22f12-5b79-4e9a-80a8-c916e387c423",
+    "next_slug": "introducao-ao-rest-api-com-flask",
+    "contents": [
+      {
+        "id": "f2b22f12-5b79-4e9a-80a8-c916e387c423",
+        "active": true,
+        "name": "Introdução ao Rest Api com Flask",
+        "type": "video",
+        "slug": "introducao-ao-rest-api-com-flask",
+        "content": "https://midia.digitalinnovation.one/7379e3a7-6a52-4f0a-a8e2-decfff475a0b/f2b22f12-5b79-4e9a-80a8-c916e387.ism/manifest(format=m3u8-aapl).m3u8",
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "64d4e5d6-c138-49f4-a523-a7773e2271fd",
+        "active": true,
+        "name": "Introdução ao Rest Api com Flask",
+        "type": "quiz",
+        "slug": "introducao-ao-rest-api-com-flask-3",
+        "content": {
+          "id": "148cd28d-6ec4-4f82-b542-0e2aa3729918",
+          "question": [
+            {
+              "id": "4fb58918-47fd-48d5-a533-c3df73f1664c",
+              "description": "Qual das alternativas abaixo não caracteriza um API?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "21255481-b66d-4a49-ac15-06960e9e2a48",
+                  "description": "É uma interface que permite o desenvolvimento de aplicativos.",
+                  "correct": false
+                },
+                {
+                  "id": "420e390a-19d8-4d29-b67d-b7d7c32b710e",
+                  "description": "API é uma forma de integrar sistemas.",
+                  "correct": false
+                },
+                {
+                  "id": "2e55535a-e78e-4f84-9cf4-285aaf9e95fc",
+                  "description": "API é a interface que faz os aplicativos funcionarem, porém ela não se aplica à construção de sites.",
+                  "correct": true
+                },
+                {
+                  "id": "73ccf41e-f76c-49da-9c89-a351c75070bc",
+                  "description": "São rotinas que permitem acesso a uma plataforma web.",
+                  "correct": false
+                },
+                {
+                  "id": "ed9ceb3e-8984-4a06-9870-109efe4d68d8",
+                  "description": "As APIs possibilitam que a comunicação do software fique transparente ao usuário.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "bb5a9cb6-63ff-4d79-aa43-31de14e33785",
+              "description": "Das alternativas abaixo, qual não é uma das características de REST?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "54843a53-268e-4f8f-8d2f-bf1b0cf5eaed",
+                  "description": "Para focar nas restrições sobre sua integração com outros componentes, o REST ignora detalhes da implementação.",
+                  "correct": false
+                },
+                {
+                  "id": "187491e9-3bfc-47f9-bf9e-03cf512e43a0",
+                  "description": "É um tipo de arquitetura para a construção de serviços web.",
+                  "correct": false
+                },
+                {
+                  "id": "cb2dd009-605a-4565-830c-ad979e47deee",
+                  "description": "É a definição de um conjunto de restrições e propriedades baseado em comunicação via rede.",
+                  "correct": false
+                },
+                {
+                  "id": "0911602d-0d24-4f78-b122-6ed3d7eed913",
+                  "description": "É a sigla para Representational State Transfer.",
+                  "correct": false
+                },
+                {
+                  "id": "46999e24-7375-4a80-8814-042835554cb8",
+                  "description": "REST é considerado um auxílio para desenvolvimento front-end.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "5003991c-03f8-450a-9d6a-76d69ea4ce72",
+              "description": "Quais dos métodos do protocolo HTTP abaixo são os mais usados?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "f6859427-2e42-42a4-8e18-6dbc48a75e93",
+                  "description": "PUT.",
+                  "correct": false
+                },
+                {
+                  "id": "328817d3-11ee-46c7-970c-24f49b812144",
+                  "description": "DELETE.",
+                  "correct": false
+                },
+                {
+                  "id": "56c616d4-9006-4d12-80bf-7d36e978e97c",
+                  "description": "POST.",
+                  "correct": false
+                },
+                {
+                  "id": "43854350-29a2-4b6b-9c4e-f2089f8d9da9",
+                  "description": "GET.",
+                  "correct": false
+                },
+                {
+                  "id": "939e3f01-0536-4fd8-9bcb-9b26e081f846",
+                  "description": "Todas as alternativas.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "8eb56161-e423-4fc2-8d08-16a04a2629ed",
+              "description": "Leia as sentenças e assinale a alternativa correta. \r\nI – URL é o endereço de rede do recurso que será acessado. \r\nII - URN é uma sequência de números e letras que identificam o recurso. \r\nIII – URI é o nome do recurso que será identificado.",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "555fc6ce-121c-428f-adf8-4c3b9d9f0265",
+                  "description": "Apenas I está correta.",
+                  "correct": true
+                },
+                {
+                  "id": "c565cbde-969b-465d-94de-ef52af0e7735",
+                  "description": "Apenas III está errada.",
+                  "correct": false
+                },
+                {
+                  "id": "b453cd3a-11c8-42df-acb4-1f69a32f88e6",
+                  "description": "Todas estão corretas.",
+                  "correct": false
+                },
+                {
+                  "id": "8e57bb5b-5648-4c1f-b5d0-f4f86e2b2c7f",
+                  "description": "Apenas II está correta.",
+                  "correct": false
+                },
+                {
+                  "id": "f280b864-3295-4082-bdb3-2164cfdb79aa",
+                  "description": "I e III estão erradas.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "bac8b48f-079e-4c11-a903-30f6f4ad6dec",
+              "description": "Sobre XLM é correto afirmar:",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "19dcaebb-312f-4c13-a5eb-e3082776d2fa",
+                  "description": "O XML também permite a possibilidade de criação de tags limitadas.",
+                  "correct": false
+                },
+                {
+                  "id": "fe05ded3-5fe6-454b-85bc-914fcbf758ed",
+                  "description": "XML descreve apenas um tipo de dado e tem facilidade no compartilhamento de informações através da internet.",
+                  "correct": false
+                },
+                {
+                  "id": "09644a16-7028-4d2e-a1cc-e1bb3a293fb8",
+                  "description": "É uma linguagem de marcação que padroniza uma sequência de dados a fim de organizá-los e integrá-los com outras linguagens.",
+                  "correct": true
+                },
+                {
+                  "id": "264b4de1-31f4-4510-ac1d-fd64c27e32c9",
+                  "description": "Um banco de dados em XML é restrito e nenhum outro banco consegue vê-lo.",
+                  "correct": false
+                },
+                {
+                  "id": "b72f27a0-e7b6-4851-8249-a77400717b65",
+                  "description": "O XML traz uma sintaxe complexa para ser utilizada para compartilhar informações entre diferentes computadores e aplicações.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "8d0c0772-1274-43f0-8721-84330b6e1760",
+              "description": "Sobre Flask, leia as sentenças e assinale a alternativa correta.\r\nI – É um microframework para Python que serve para o desenvolvimento de aplicações web. \r\nII – Apesar de complexo, Flask é um dos frameworks de Python mais usados. \r\nIII – É impossível estender o Flask com outras bibliotecas.",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "c501a5cf-a607-41bb-bd86-bae1fd4c64f1",
+                  "description": "I e III estão erradas.",
+                  "correct": false
+                },
+                {
+                  "id": "58d133d9-459b-48df-9a2b-eb57501d350d",
+                  "description": "Apenas II está errada.",
+                  "correct": true
+                },
+                {
+                  "id": "514e2358-814d-4897-bb8d-17a9cbf573e1",
+                  "description": "Apenas III está errada.",
+                  "correct": false
+                },
+                {
+                  "id": "435ab602-840c-41d1-8580-0495c578ee33",
+                  "description": "Todas estão corretas.",
+                  "correct": false
+                },
+                {
+                  "id": "65f3fef7-d880-455e-9c82-611355b7934c",
+                  "description": "I e II estão corretas.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "8ce5eb1b-ef7e-41ac-9ff9-f5b5ce9e307c",
+              "description": "Qual o objetivo da microframework Flask?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "1fce1697-b5aa-4a5c-ab18-26e6c1f6b969",
+                  "description": "Todas as alternativas.",
+                  "correct": false
+                },
+                {
+                  "id": "2fb0daa0-6c43-4884-8f04-863a8d4af743",
+                  "description": "É tomar decisões por você, por exemplo, qual banco de dados usar.",
+                  "correct": false
+                },
+                {
+                  "id": "5bd2e9ef-42a0-4e6c-ac05-7664a685d78d",
+                  "description": "É trazer maior variedade na hora de desenvolver aplicações web.",
+                  "correct": false
+                },
+                {
+                  "id": "262fc215-1287-42cf-9ae1-d6300d36c460",
+                  "description": "É permitir a criação de aplicações web de forma eficiente.",
+                  "correct": true
+                },
+                {
+                  "id": "269ea553-8ade-4673-b349-2533ed033879",
+                  "description": "É simplificar a linguagem Python através de atalhos para códigos.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "08afe74d-0612-4c00-8163-d760f9e47496",
+              "description": "Dos 4 métodos do protocolo HTTP citado na aula, faça uma relação correta de seu significado conforme as opções abaixo:\r\n\r\nI - GET é o método que solicita do servidor por meio da URI.\r\nII - PUT é o método usado para enviar dados ao servidor.\r\nIII - DELETE deleta objetos.\r\n\r\nAssinale a alternativa correta:",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "6972fb92-5f28-4e60-b8f2-561165a6b6ec",
+                  "description": "Todas estão corretas e está faltando o método POST.",
+                  "correct": false
+                },
+                {
+                  "id": "bfeb60aa-cc0c-41d3-9c45-82836d5beca4",
+                  "description": "Apenas a alternativa II e III estão corretas e está faltando o método POST.",
+                  "correct": false
+                },
+                {
+                  "id": "c561cd02-14bc-4d01-bf16-f8968742b98a",
+                  "description": "Apenas a alternativa I e III estão correta e está faltando o método FTP.",
+                  "correct": false
+                },
+                {
+                  "id": "fef4f118-c94f-448c-a40d-a2c6f1e19ec7",
+                  "description": "Apenas a alternativa I está correta e está faltando o método POST.",
+                  "correct": false
+                },
+                {
+                  "id": "552509f7-a977-4810-9887-712b3330bc2c",
+                  "description": "Apenas a alternativa I e III estão correta e está faltando o método POST.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "619c5191-2aca-4bda-8cca-5dccdc24586f",
+              "description": "Se você digitar o seguinte endereço web: 'https://www.nasa.gov/multimedia/imagegallery' em seu navegador, você irá acessar o site da Nasa na seção \"Imagens do dia\". Sendo assim, em relação ao endereço, assinale a alternativa correta:",
+              "active": true,
+              "level": 5,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "ee052823-3ee9-46d7-948e-6d6a500e0470",
+                  "description": "A URI é nasa.gov",
+                  "correct": false
+                },
+                {
+                  "id": "8f82244b-cd07-4fa8-b6f9-a2c6e9e42e70",
+                  "description": "A URN é multimedia/imagegallery",
+                  "correct": true
+                },
+                {
+                  "id": "5aa074e7-531f-431a-8472-7f319a2865d9",
+                  "description": "A URL do site é https://www.nasa.gov",
+                  "correct": false
+                },
+                {
+                  "id": "05f5166d-a1ec-4c3b-8694-3d226383f6d5",
+                  "description": "A URN é nasa.gov",
+                  "correct": false
+                },
+                {
+                  "id": "ff594ad1-ede1-4cab-b7a3-9602381f44ba",
+                  "description": "O protocolo é https://www",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "5fe3b229-9436-4e05-97e8-46214a5e1943",
+              "description": "Relacione a estrutura de dados corretamente:\r\nI - { \"<planta>\" : \"Antúrio\", \"</planta>\" : \"\" }\r\nII - <xml><planta>Rosa de Pedra</planta></xml>\r\nIII - { \"planta\" : \"Jade\" }\r\nIV - <planta><nome>Bromélia</nome></planta>",
+              "active": true,
+              "level": 5,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "76108095-341b-44c6-9556-880a87a79f61",
+                  "description": "Apenas II e a III são tipos corretos de, respectivamente, JSON e XML.",
+                  "correct": false
+                },
+                {
+                  "id": "c91943e2-6fb6-4a49-8482-cc8ee4ca56c5",
+                  "description": "A alternativa I e a IV são, respectivamente, estruturas incorretas de JSON e XML.",
+                  "correct": false
+                },
+                {
+                  "id": "2390160e-9c1e-4468-b302-2c905a77eaa0",
+                  "description": "A alternativa I apresenta mescla de XML e JSON, o que não é permitido.",
+                  "correct": false
+                },
+                {
+                  "id": "18f465f9-2851-4a28-a392-90e7644a6f7b",
+                  "description": "I e III são estruturas tipo JSON, enquanto II e IV é tipo XML.",
+                  "correct": true
+                },
+                {
+                  "id": "ea81635a-c4c8-43d9-9c01-592ed5e56344",
+                  "description": "I, II e IV são estruturas tipo XML, enquanto apenas III é do tipo JSON.",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "2b0ad6a5-cd2a-4ac6-9006-c440fa98e7f1",
+        "active": true,
+        "name": "Introdução ao Rest Api com Flask",
+        "type": "audio",
+        "slug": "introducao-ao-rest-api-com-flask-4",
+        "content": {
+          "cover": "https://hermes.digitalinnovation.one/contents/cover/2b0ad6a5-cd2a-4ac6-9006-c440fa98e7f1.jpg",
+          "audio": "https://dio-hermes.s3-sa-east-1.amazonaws.com/contents/audio/2b0ad6a5-cd2a-4ac6-9006-c440fa98e7f1.mp3"
+        },
+        "completed": false,
+        "youtube_url": null,
+        "pdf_url": null
+      }
+    ],
+    "course": "47288d46-5127-4c7e-abb7-1bcf274f67e0",
+    "workload": 40,
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "36860c85-7d7f-4784-9482-ecaff4d35e0d",
+    "name": "Instalando Flask, criando ambiente virtual e introdução a Postman",
+    "available": true,
+    "watched": true,
+    "completed": true,
+    "has_admob": false,
+    "score": 9,
+    "small_cover": null,
+    "large_cover": "https://hermes.digitalinnovation.one/lessons/3016e0f2-c6a3-4174-9787-265eb4cdbed8_large.png",
+    "large_cover_disabled": "https://hermes.digitalinnovation.one/lessons/8a9e56bc-4c2c-4d88-bc7e-7c4bdf1058b7_large_disabled.png",
+    "available_message": null,
+    "description": "Aprenda a instalar o Flask e a incluir em seu ambiente de trabalho de trabalho. Nessa aula você conhecerá também o Postman, uma API que otimiza o trabalho dos desenvolvedores.",
+    "category": {
+      "id": "80b04dbf-a15d-4de7-aa19-c1022960bada",
+      "name": "",
+      "icon": "fla",
+      "color": "#300f15"
+    },
+    "author": {
+      "id": "6beaa9ec-34d1-4acb-9be9-1114eca84bcf",
+      "name": "Rafael Galleani",
+      "company": {
+        "id": "5892b2d5-eea7-4171-83de-ea09dee11e06",
+        "name": "NEXT Engineering",
+        "year": null,
+        "category": {
+          "id": "fba1b2b1-b3b9-494a-bf8f-dc2eb7f7c417",
+          "name": "Tecnologia da informação e serviços"
+        },
+        "website": "http://www.nextengineering.pt",
+        "photo": "https://hermes.digitalinnovation.one/users/company/5892b2d5-eea7-4171-83de-ea09dee11e06.png"
+      },
+      "position": "Python Developer",
+      "photo": "https://hermes.digitalinnovation.one/users/author/photos/6beaa9ec-34d1-4acb-9be9-1114eca84bcf.png",
+      "linkedin": "https://www.linkedin.com/in/rafael-galleani/#experience-section",
+      "github": null
+    },
+    "reference": {
+      "id": "a712b287-3b0a-4495-b379-edf179bb3487",
+      "name": "Trilhas Python",
+      "author": "Eduardo Pereira",
+      "isbn": "978-85-94188-69-4",
+      "cover": "https://hermes.digitalinnovation.one/books/a712b287-3b0a-4495-b379-edf179bb3487.png"
+    },
+    "next_content": "e39c3098-2b94-40d2-b344-3ca1cd350a5b",
+    "next_slug": "instalando-flask-criando-ambiente-virtual-e-introducao-a-postman",
+    "contents": [
+      {
+        "id": "e39c3098-2b94-40d2-b344-3ca1cd350a5b",
+        "active": true,
+        "name": "Instalando Flask, criando ambiente virtual e introdução a Postman",
+        "type": "video",
+        "slug": "instalando-flask-criando-ambiente-virtual-e-introducao-a-postman",
+        "content": "https://midia.digitalinnovation.one/8c16f3cb-48f4-4cec-af27-5e545b6909d4/e39c3098-2b94-40d2-b344-3ca1cd35.ism/manifest(format=m3u8-aapl).m3u8",
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "ca0af863-a52b-49b3-9dcb-6141a4790455",
+        "active": true,
+        "name": "Instalando Flask, criando ambiente virtual e introdução a Postman",
+        "type": "quiz",
+        "slug": "instalando-flask-criando-ambiente-virtual-e-introducao-a-postman-3",
+        "content": {
+          "id": "41f8d392-8b1d-4e39-82b8-1f19b2bc42ec",
+          "question": [
+            {
+              "id": "8330ea9e-7056-44b0-b544-041b6265baac",
+              "description": "Qual a finalidade do Virtualenv?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "bb9997c5-d730-46ee-a139-0c61003ce986",
+              "choices": [
+                {
+                  "id": "9cd35de1-3038-43f8-b40b-8a568b2a48f7",
+                  "description": "Nenhuma das alternativas.",
+                  "correct": false
+                },
+                {
+                  "id": "4e2f35e4-4ce8-4a16-baa8-c0d01cc2817d",
+                  "description": "É uma ferramenta que deve ser usada exclusivamente na linguagem Python para que seja utilizada uma única biblioteca.",
+                  "correct": false
+                },
+                {
+                  "id": "925e80aa-028f-4762-b275-8630526497bd",
+                  "description": "É uma plataforma que deve ser utilizada quando se deseja instalar dependências de um projeto específico em Python.",
+                  "correct": false
+                },
+                {
+                  "id": "fe1193b5-5716-4944-bc51-19643e555d63",
+                  "description": "É uma ferramenta para criar ambientes Python isolados e muito útil também para criar projetos que utilizam bibliotecas com diferentes versões.",
+                  "correct": true
+                },
+                {
+                  "id": "039dc1af-f51d-416f-a2ef-7e1bd70ad53b",
+                  "description": "É uma funcionalidade da linguagem Python que cria diferentes ambientes para desenvolvimento de aplicações.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "4bd0e393-0f21-496e-9ace-cfb30850c937",
+              "description": "Qual das características abaixo não faz parte do PyCharm?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "24106b99-7e2a-4123-a273-e7ed585ca418",
+                  "description": "Todas estão corretas.",
+                  "correct": false
+                },
+                {
+                  "id": "54023202-e1c5-4f8d-88b3-c2c445ab1a08",
+                  "description": "O PyCharm otimiza tarefas no Python mas não faz integração com outros sistemas.",
+                  "correct": true
+                },
+                {
+                  "id": "516123b9-e2a9-4366-9486-354b635fdea3",
+                  "description": "Dentre suas funções, o PyCharm faz formatação automática e complementação do código.",
+                  "correct": false
+                },
+                {
+                  "id": "363d81bf-3633-469e-bd38-b39229dce6be",
+                  "description": "Ele pode ser trabalhado juntamente com a ferramenta Django.",
+                  "correct": false
+                },
+                {
+                  "id": "a5e001ae-5ab4-41ce-8c30-84d06da6a7ab",
+                  "description": "É um ambiente de desenvolvimento integrado usado na programação em linguagem Python.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "59bd42a4-fd35-4ab0-bdb6-606d865a4cd9",
+              "description": "Em qual das alternativas abaixo é usada a ferramenta Postman?",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "54a97ddd-e891-4293-87a1-eba44e3ddf66",
+                  "description": "Para pode testar qualquer serviço Pycharm.",
+                  "correct": false
+                },
+                {
+                  "id": "5796cc96-bfba-4a48-8918-939683224ad7",
+                  "description": "Para testar aplicações da interface gráfica.",
+                  "correct": false
+                },
+                {
+                  "id": "c30c793e-6428-4eae-9066-b89888bdb8f7",
+                  "description": "Para otimizar o tempo de desenvolvimento de projetos back-end.",
+                  "correct": false
+                },
+                {
+                  "id": "eb8297fe-e441-4eef-8eeb-b5543c68442b",
+                  "description": "Para facilitar o teste e depuração de frameworks.",
+                  "correct": false
+                },
+                {
+                  "id": "d29bd053-474a-46cf-8152-069b97860f44",
+                  "description": "Para realizar requisições HTTP por uma interface simples.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "725e08ec-95a4-4cff-842d-9fc02efb1b91",
+              "description": "Analise o código abaixo e assinale o comando que está faltando:\r\napp = Flask(__name__)\r\n\r\n@app.route(\"/\")\r\ndef hello():\r\n   return \"Hello World!\"",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "eb7c2f94-e445-476a-a5a4-91f5bd6e3131",
+                  "description": "FLASK_APP=hello.py flask run",
+                  "correct": false
+                },
+                {
+                  "id": "a28c6e1a-9425-4ecf-b693-35c5135145d8",
+                  "description": "import flask from Flask",
+                  "correct": false
+                },
+                {
+                  "id": "e67ee898-5749-43f8-bd77-08dd2eb1a3e0",
+                  "description": "from flask import Flask",
+                  "correct": true
+                },
+                {
+                  "id": "b9b42492-eb96-4339-b048-de26a3dab999",
+                  "description": "open = Flask",
+                  "correct": false
+                },
+                {
+                  "id": "47b5583f-03e7-4953-ad76-63f69a9888c1",
+                  "description": "from Flask",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "9b002ada-ad30-4d6c-9c56-063de01c894a",
+              "description": "Qual a finalidade do comando import_name?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "0dc3e795-333e-44b6-acd4-70d8ff4aef7c",
+                  "description": "Nenhuma das alternativas.",
+                  "correct": false
+                },
+                {
+                  "id": "f6af6d45-b5a9-4d3d-b983-b573ef8b100a",
+                  "description": "Para importar projetos antigos de outras linguagens para o Flask.",
+                  "correct": false
+                },
+                {
+                  "id": "fb162871-6e79-4e9e-8941-07cf9e834a02",
+                  "description": "Faz com que o Flask inicie seu servidor interno.",
+                  "correct": false
+                },
+                {
+                  "id": "436ab785-366e-4525-ad1a-357237e77a63",
+                  "description": "O comando é para delimitar que o projeto está contido em um pacote.",
+                  "correct": false
+                },
+                {
+                  "id": "a74bae7d-1ef3-4e96-8047-4ecbcbab9f1b",
+                  "description": "Este comando define o que pertence ao projeto.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "76dad658-6f6a-4407-9b9b-af930b022ab9",
+              "description": "O trecho do código @app.route() permite especificar o método de leitura do código Python. Avalie as afirmativas abaixo para inclusão tanto do método GET quanto POST.",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "c70fe77f-b24f-4b27-b128-979826a4497f",
+                  "description": "@app.route(\"/\", methods=('GET', 'POST'))",
+                  "correct": false
+                },
+                {
+                  "id": "48ed11a0-9b72-48f0-b976-886b688efb6b",
+                  "description": "@app.route(\"/\", methods=['GET'; 'POST'])",
+                  "correct": false
+                },
+                {
+                  "id": "c7c4168b-0ed8-4704-890f-5323bce03b91",
+                  "description": "@app.route(\"/\", methods=['GET', 'POST'])",
+                  "correct": true
+                },
+                {
+                  "id": "16cf352a-8b86-4777-ae90-111f36eb0f1a",
+                  "description": "@app.route(\"/\", methods=[GET; POST])",
+                  "correct": false
+                },
+                {
+                  "id": "07df95e0-0094-4123-bd07-9a77a096ebbc",
+                  "description": "@app.route(\"/\", methods=[GET, POST])",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "86a5892d-9e6c-44f9-a47d-91c9256295a4",
+              "description": "O trecho do código @app.route() permite a transferência de parâmetros através da URI. Sendo assim, qual das opções abaixo pega corretamente o nome de vocalistas de bandas de rock através do método GET?\r\n\r\nI - @app.route(\"/<StevenTyler>\", methods=['GET'])\r\nII - @app.route(\"</MickJagger>\")\r\nIII - @app.route(\"/<DavidBowie>\")\r\nIV - @app.route(\"/<DebbieHarry\")",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "73938bf3-4878-4502-be3e-4ca28842e260",
+                  "description": "Todas.",
+                  "correct": false
+                },
+                {
+                  "id": "0286ef58-cff7-49b3-b0d6-b68a05013e3d",
+                  "description": "Apenas III.",
+                  "correct": false
+                },
+                {
+                  "id": "cf470fe3-e6a5-40ad-b7bc-ca19e9afc006",
+                  "description": "Todas, exceto II.",
+                  "correct": false
+                },
+                {
+                  "id": "36e7de66-97de-4c13-93a4-e37c0e187f88",
+                  "description": "Apenas I e III.",
+                  "correct": true
+                },
+                {
+                  "id": "0f6e0d26-ec8d-43e0-bdeb-808b02b339ce",
+                  "description": "Apenas I.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "dd76ef9e-2514-4c9c-8f2b-ac1b3986c4aa",
+              "description": "Na aula foi ensinado o comando utilizado para que o arquivo Python execute o código. Assinale a opção correta com a justificativa correta.",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "99d6c5e9-b9b6-42d0-9581-c6102f15737c",
+                  "description": "app(run), porque run é o parâmetro do Python que irá acessar o comando do aplicativo.",
+                  "correct": false
+                },
+                {
+                  "id": "a16d594e-5de1-4a4d-bd59-126b12659701",
+                  "description": "run.app(), porque run é um comando associado à variável app que recebeu Flask(__name__)",
+                  "correct": false
+                },
+                {
+                  "id": "bf658bf4-ec26-47b1-905a-87c3664dc536",
+                  "description": "app.run(), porque run é um comando associado à variável app que recebeu Flask(__name__)",
+                  "correct": true
+                },
+                {
+                  "id": "05da449c-5dba-48be-920d-11f3c6eb59c5",
+                  "description": "app.run, porque run é o nome do arquivo, tal como run.py",
+                  "correct": false
+                },
+                {
+                  "id": "34cbb48d-c76b-4eff-afbf-fb5abafa9ded",
+                  "description": "app.run(), porque run é o nome do arquivo, tal como run.py",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "e27cb0f7-493e-4a65-a4f9-61d209485615",
+              "description": "Ao visualizar o retorno no navegador foi apresentado o seguinte texto de erro:\r\nMethod Not Alowed\r\nThe method is not allowed for the requested URL.\r\n\r\nMediante isso, qual linha de código abaixo seria a responsável por isso?",
+              "active": true,
+              "level": 5,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "74c57111-9781-4651-9997-97ad51ca9758",
+                  "description": "@app.route(\"/<vitaminas>\", methods=['POST'])",
+                  "correct": true
+                },
+                {
+                  "id": "d2464640-878b-4da6-bfab-b586d289e5e9",
+                  "description": "@app.route(\"/<gorduras>\")",
+                  "correct": false
+                },
+                {
+                  "id": "d2c12352-6b1d-4436-8023-72eb03c57663",
+                  "description": "@app.route(\"/<carboidratos>\", methods=[POST])",
+                  "correct": false
+                },
+                {
+                  "id": "c8983e7a-e910-4336-93df-72649c19edc2",
+                  "description": "@app.route(\"/<minerais>\", methods=['GET', 'POST'])",
+                  "correct": false
+                },
+                {
+                  "id": "205fd7ca-e564-4085-a8c9-f25073813a94",
+                  "description": "@app.route(\"/<proteinas>\", methods=['GET'])",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "90fe0ba9-062c-4082-be00-732c9f9e5674",
+              "description": "O Flask permite mudança e atualização constante no arquivo, evitando que você precise fazê-lo manualmente para checar as mudanças. O comando correto que permite esse processo é:",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "4a0d3813-c040-4620-a3d0-07ac19b8adbd",
+                  "description": "app.debug(=True)",
+                  "correct": false
+                },
+                {
+                  "id": "f3fb762c-7ee8-4827-babd-eb5aeaf2c5d7",
+                  "description": "debug.run(True)",
+                  "correct": false
+                },
+                {
+                  "id": "3c6cb47f-5ebf-4ea8-86d7-735046d49fef",
+                  "description": "app.run(debug=True)",
+                  "correct": true
+                },
+                {
+                  "id": "cfada4be-ae6e-4418-a3b7-14736fddb26e",
+                  "description": "app.debug(True)",
+                  "correct": false
+                },
+                {
+                  "id": "89a9edf8-a322-42c7-a9af-10a990bdebf5",
+                  "description": "app.run(true)",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "38d5000a-5335-459b-b266-7733153fbdaf",
+        "active": true,
+        "name": "Instalando Flask, criando ambiente virtual e introdução a Postman",
+        "type": "audio",
+        "slug": "instalando-flask-criando-ambiente-virtual-e-introducao-a-postman-4",
+        "content": {
+          "cover": "https://hermes.digitalinnovation.one/contents/cover/38d5000a-5335-459b-b266-7733153fbdaf.jpg",
+          "audio": "https://dio-hermes.s3-sa-east-1.amazonaws.com/contents/audio/38d5000a-5335-459b-b266-7733153fbdaf.mp3"
+        },
+        "completed": false,
+        "youtube_url": null,
+        "pdf_url": null
+      }
+    ],
+    "course": "47288d46-5127-4c7e-abb7-1bcf274f67e0",
+    "workload": 40,
+    "order": 2,
+    "active": true
+  },
+  {
+    "id": "20b1c8c7-9c41-4392-9ad4-5af205761bb9",
+    "name": "Utilizando métodos, biblioteca Request e JSON",
+    "available": true,
+    "watched": true,
+    "completed": true,
+    "has_admob": false,
+    "score": 7,
+    "small_cover": null,
+    "large_cover": "https://hermes.digitalinnovation.one/lessons/4ac5cab4-0973-4bec-b2d9-5844d64d5ca0_large.png",
+    "large_cover_disabled": "https://hermes.digitalinnovation.one/lessons/01b89077-3715-4956-89ff-0b625e51679e_large_disabled.png",
+    "available_message": null,
+    "description": "Aprenda sobre métodos, biblioteca Request e também sobre JSON, uma forma de transferência de informação.",
+    "category": {
+      "id": "80b04dbf-a15d-4de7-aa19-c1022960bada",
+      "name": "",
+      "icon": "fla",
+      "color": "#300f15"
+    },
+    "author": {
+      "id": "6beaa9ec-34d1-4acb-9be9-1114eca84bcf",
+      "name": "Rafael Galleani",
+      "company": {
+        "id": "5892b2d5-eea7-4171-83de-ea09dee11e06",
+        "name": "NEXT Engineering",
+        "year": null,
+        "category": {
+          "id": "fba1b2b1-b3b9-494a-bf8f-dc2eb7f7c417",
+          "name": "Tecnologia da informação e serviços"
+        },
+        "website": "http://www.nextengineering.pt",
+        "photo": "https://hermes.digitalinnovation.one/users/company/5892b2d5-eea7-4171-83de-ea09dee11e06.png"
+      },
+      "position": "Python Developer",
+      "photo": "https://hermes.digitalinnovation.one/users/author/photos/6beaa9ec-34d1-4acb-9be9-1114eca84bcf.png",
+      "linkedin": "https://www.linkedin.com/in/rafael-galleani/#experience-section",
+      "github": null
+    },
+    "reference": {
+      "id": "a712b287-3b0a-4495-b379-edf179bb3487",
+      "name": "Trilhas Python",
+      "author": "Eduardo Pereira",
+      "isbn": "978-85-94188-69-4",
+      "cover": "https://hermes.digitalinnovation.one/books/a712b287-3b0a-4495-b379-edf179bb3487.png"
+    },
+    "next_content": "43a5f2cc-bb65-4b91-a410-ef43234f4bf1",
+    "next_slug": "utilizando-metodos-biblioteca-request-e-json",
+    "contents": [
+      {
+        "id": "43a5f2cc-bb65-4b91-a410-ef43234f4bf1",
+        "active": true,
+        "name": "Utilizando métodos, biblioteca Request e JSON",
+        "type": "video",
+        "slug": "utilizando-metodos-biblioteca-request-e-json",
+        "content": "https://midia.digitalinnovation.one/c46283ca-8309-443a-a51d-848a83fc7d41/43a5f2cc-bb65-4b91-a410-ef43234f.ism/manifest(format=m3u8-aapl).m3u8",
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "d6f9ef14-c265-4a6b-ad22-e2c2135f5d7f",
+        "active": true,
+        "name": "Utilizando métodos, biblioteca Request e JSON",
+        "type": "quiz",
+        "slug": "utilizando-metodos-biblioteca-request-e-json-1",
+        "content": {
+          "id": "a0a74489-3b29-475f-82d7-ff7d845567bf",
+          "question": [
+            {
+              "id": "c818577a-7aec-4a59-ae4a-fd5ef57f9c7b",
+              "description": "Quando o comando jsonify é usado?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "ec5ceabf-6e96-4867-bc35-634b5df94971",
+                  "description": "Nenhuma está correta.",
+                  "correct": false
+                },
+                {
+                  "id": "84b5a75e-969d-4400-b989-26ee69559052",
+                  "description": "Para que os código seja compatível com outras linguagens além do Python.",
+                  "correct": false
+                },
+                {
+                  "id": "379a163c-0705-4877-b79c-990205036355",
+                  "description": "Para transformar um código json em uma array.",
+                  "correct": false
+                },
+                {
+                  "id": "876c2189-6b28-4513-b09f-8b4720af3c88",
+                  "description": "Para que o comando seja dividido em grupos.",
+                  "correct": false
+                },
+                {
+                  "id": "426b16ed-2912-46f6-ad59-99615960aa82",
+                  "description": "Para transformar um comando em json, ou seja, uma forma de escrever objetos.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "87f17f15-3bc3-47b5-a55b-190f5ed77047",
+              "description": "Analise o código abaixo e assinale a alternativa correta:\r\nfrom flask import Flask\r\ndef minha_api ():\r\n       return ‘Digital Innovation One’",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "cf20f0a7-c785-4250-a28c-553013ac7967",
+                  "description": "O comando vai levar para uma página em branco escrito apenas Digital Innovation One.",
+                  "correct": false
+                },
+                {
+                  "id": "ba66f9f4-3286-480b-ad1d-ccf9a549738d",
+                  "description": "O comando não vai funcionar pois faltou o comando @app.route (‘/’)",
+                  "correct": true
+                },
+                {
+                  "id": "6ea7d5d7-95a5-4687-8701-df74d3583327",
+                  "description": "O código precisa estar entre chaves para funcionar.",
+                  "correct": false
+                },
+                {
+                  "id": "33966fed-29ed-43dd-a906-222ec029a2dc",
+                  "description": "O comando vai dar erro pois é preciso fechar o código ‘definições’.",
+                  "correct": false
+                },
+                {
+                  "id": "7259bc36-6a28-4ffa-824d-3ad1086e1267",
+                  "description": "O comando vai direcionar para a página web da Digital Innovation One.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "a64eaed1-b42e-44e1-bfb6-7cbde986c1d7",
+              "description": "Qual a função do methods = [‘POST’] usado na aula?",
+              "active": true,
+              "level": 1,
+              "time": 60,
+              "skill": "a9758a3d-f872-4388-9868-7144939412f8",
+              "choices": [
+                {
+                  "id": "fe39683d-e75d-4cb7-b1ff-c9be1b523101",
+                  "description": "Listar uma série de objetos strings.",
+                  "correct": false
+                },
+                {
+                  "id": "55d17ead-dd9b-4a85-9033-1ba64d25cce5",
+                  "description": "Retornar valores em json.",
+                  "correct": false
+                },
+                {
+                  "id": "f316c1c4-f367-4cb6-a780-dea834a215c9",
+                  "description": "Transformar strings em objetos.",
+                  "correct": false
+                },
+                {
+                  "id": "2b2a85cd-f90e-4b54-b0a0-0ea59d99c77c",
+                  "description": "Passar valores para o body do projeto.",
+                  "correct": true
+                },
+                {
+                  "id": "e538fbe7-2c63-4eaa-9073-d42c36a1d6c2",
+                  "description": "Enumerar os objetos de um método.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "0b5a3745-e00a-4179-842a-c5267891dd85",
+              "description": "Qual a finalidade do comando @app.route (‘/’)?",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "e2526805-d991-4760-a997-b8e4ecd716da",
+                  "description": "Nenhuma está correta.",
+                  "correct": false
+                },
+                {
+                  "id": "e3da38df-6997-4640-95e2-2937663d5eed",
+                  "description": "É o comando que leva para a plataforma do aplicativo.",
+                  "correct": false
+                },
+                {
+                  "id": "a06c8aee-50c5-494e-a07e-4bb791a061a5",
+                  "description": "É o código que unicamente direciona para outras páginas.",
+                  "correct": false
+                },
+                {
+                  "id": "9a9a0b8e-09f1-442e-a3cf-a3550fdbe24c",
+                  "description": "É o comando que inicia projetos no Flask.",
+                  "correct": false
+                },
+                {
+                  "id": "0ed86123-ec15-4627-b4ff-2f280474a9d8",
+                  "description": "É o comando que executa uma função proveniente de uma página.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "55bccfb8-fc94-4391-8fc3-720b92dfe663",
+              "description": "Na aula, quando o instrutor tentou entrar no navegador pelo endereço 127.0.0.1:5000 em um determinado momento, a tela mostrou um erro com o seguinte trecho: Not Found\r\nAvalie o código abaixo:\r\n\r\nfrom flask import Flask\r\napp = Flask(__name__)\r\ndef pessoa():\r\n  return ''\r\n\r\napp.run()\r\n\r\n\r\nEm relação ao código acima, qual linha de comando está faltando que iria corrigir o erro encontrado no navegador?",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "f8920b69-0066-4107-ad1b-ddc8df32acbe",
+                  "description": "Todas as alternativas.",
+                  "correct": false
+                },
+                {
+                  "id": "2605e0bc-8dda-458a-a4d9-fa0840a1e3f7",
+                  "description": "if __name__ == '__main__':",
+                  "correct": false
+                },
+                {
+                  "id": "21863fd6-e44c-4ba9-93ea-b70c4e596538",
+                  "description": "@app.route('/')",
+                  "correct": true
+                },
+                {
+                  "id": "156c82c7-a76b-40eb-a9e4-f934cd586abd",
+                  "description": "return 'Olá'",
+                  "correct": false
+                },
+                {
+                  "id": "9867dd43-8026-4887-a84d-5b4dc58d5ab4",
+                  "description": "app.run(debug=True)",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "52d1dd4e-e51a-404c-ac40-bb4de4ac1144",
+              "description": "Na aula, o professor criou um método para somar dois números com o seguinte trecho:\r\n\r\n@app.route('/soma/<int:valor1>/<int:valor2>/')\r\ndef soma(valor1, valor2):\r\n  total = valor + valor2\r\n\r\nPorém caso fosse necessário quantidades diversas de números conforme cada situação, como foi que ele adaptou o código para essa possibilidade?\r\n\r\nI - @app.route('/soma', methods=['POST'])\r\nII - def soma():\r\nIII - dados = request.data\r\nIV - total = sum(dados['valores'])\r\n\r\nEstão corretas as alternativas:",
+              "active": true,
+              "level": 3,
+              "time": 120,
+              "skill": "70c8f2cf-d667-4f3b-964f-2d7c6be0fd64",
+              "choices": [
+                {
+                  "id": "2b797281-5c95-4bc7-9e8e-efd351416a31",
+                  "description": "Apenas I.",
+                  "correct": false
+                },
+                {
+                  "id": "0fb0c899-ab47-4707-bfb8-f170d1f617ca",
+                  "description": "Apenas I, III e IV.",
+                  "correct": false
+                },
+                {
+                  "id": "4e17d7c8-7ec9-4e21-9fc7-eac90ea896ed",
+                  "description": "Apenas I e IV.",
+                  "correct": false
+                },
+                {
+                  "id": "06c9c4dc-eaad-4f26-b87d-c6bf55db60d7",
+                  "description": "Apenas I, II e IV.",
+                  "correct": true
+                },
+                {
+                  "id": "7918ad9d-b880-462b-9431-5ca9ea3eaa8e",
+                  "description": "Todas estão corretas.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "9e314206-922a-4283-91d0-dd66b0a6e57b",
+              "description": "Você está desenvolvendo um jogo de luta. Toda vez o jogador recebe um golpe, ele perde uma quantidade de pontos conforme o poder do golpe. Se o jogador ficar com zero ou menos, o jogo acaba.\r\n\r\npontos = 10\r\nfim = 0\r\n@app.route('/golpe/<int>:poder')\r\ndef golpe():\r\n  pontos = pontos - poder\r\n  if pontos == fim:\r\n    echo 'Fim de jogo'\r\n\r\nSobre esse código, responda:",
+              "active": true,
+              "level": 5,
+              "time": 120,
+              "skill": "70c8f2cf-d667-4f3b-964f-2d7c6be0fd64",
+              "choices": [
+                {
+                  "id": "a206ff58-c421-4b9c-9c59-845c56d61429",
+                  "description": "A variável poder é um inteiro, portanto a subtração será feita corretamente. Será fim de jogo assim que pontos for zero ou menos.",
+                  "correct": false
+                },
+                {
+                  "id": "1d1ec010-337f-4f5b-86f3-6b50a897c524",
+                  "description": "A variável poder é um inteiro, portanto a subtração será feita corretamente, porém pode ser que a variável pontos fique negativa, o que fará com que o jogo nunca acabe.",
+                  "correct": true
+                },
+                {
+                  "id": "47e256fe-b58f-48d3-918b-0a5f96228efd",
+                  "description": "A variável poder requisita ser convertida em inteiro no momento da subtração, pois a variável pontos é um inteiro, enquanto que poder é do tipo string.",
+                  "correct": false
+                },
+                {
+                  "id": "54ba6bfc-2510-4920-8e16-f9bb652ab6d5",
+                  "description": "A linha contendo a definição do app.route está faltando definir o methods, que no caso seria \"methods=['GET']\"",
+                  "correct": false
+                },
+                {
+                  "id": "6569087b-bdc7-477f-9e07-0bac3ad3f71a",
+                  "description": "A linha contendo a definição do app.route está faltando definir o methods, que no caso seria \"methods=['POST']\"",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "ccb361c9-63bb-4f25-bc2b-2362dc3c311b",
+              "description": "Você foi convocado para listar quantos observatórios astronômicos do Brasil estão na lista, sendo assim, você tem o seguinte código:\r\n\r\n@app.route('/X', methods=['POST'])\r\ndef Y:\r\n  dados = json.loads(request.data)\r\n  return len(dados)\r\n\r\nMediante esse simples código, avalie as afirmativas abaixo:\r\n\r\nI - X pode ser trocado pela string \"cadastrados\"\r\nII - Y deve ser trocado por \"observatorios\" caso X também seja trocado por \"observatorios\"\r\nIII - request.data pode receber por exemplo: {\"cadastrados\":['Planetário Rubens de Azevedo', 'UnB', 'UFES', 'Pico dos Dias', 'FUNESC']}\r\nIV - Caso III esteja correto, len(dados) retornará 5\r\n\r\nEstão corretas as alternativas:",
+              "active": true,
+              "level": 5,
+              "time": 180,
+              "skill": "70c8f2cf-d667-4f3b-964f-2d7c6be0fd64",
+              "choices": [
+                {
+                  "id": "9a1258df-1458-4509-9eb6-92b3495522b0",
+                  "description": "Apenas I e II.",
+                  "correct": false
+                },
+                {
+                  "id": "57a6f5e6-0ee2-4f2e-8f61-6eee8c0dc197",
+                  "description": "Apenas III.",
+                  "correct": false
+                },
+                {
+                  "id": "0c8a7147-7886-42f6-a704-99ce95a40a51",
+                  "description": "Apenas III e IV.",
+                  "correct": false
+                },
+                {
+                  "id": "c946980c-b7d8-4a92-944f-5f3f3dcc119a",
+                  "description": "Todas.",
+                  "correct": true
+                },
+                {
+                  "id": "139b55e2-ca8a-49f6-a146-7233917e62fa",
+                  "description": "Apenas I, III e IV.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "5dd2bb74-b892-4a32-9ec3-e3054281218d",
+              "description": "Observe o seguinte trecho de código abaixo:\r\n\r\n@app.route('/', methods=['POST'])\r\ndef origem:\r\n  metodo = request.method\r\n  if metodo = 'POST':\r\n    return 'Correto'\r\n  elif metodo = 'GET'\r\n    return 'Impossível'\r\n  elif metodo = 'PUT'\r\n    return 'Não funciona'\r\n\r\nAssinale a alternativa correta:",
+              "active": true,
+              "level": 3,
+              "time": 120,
+              "skill": "70c8f2cf-d667-4f3b-964f-2d7c6be0fd64",
+              "choices": [
+                {
+                  "id": "6c098a47-e48b-4935-8618-69c4f5cafd66",
+                  "description": "request.method é uma string e pode ser armazenada em uma variável, portanto caso a informação venha por método GET, dará erro ao invés de retornar a string 'Impossível'",
+                  "correct": false
+                },
+                {
+                  "id": "baa7e430-502e-4cf4-a170-c6263a7f0b6f",
+                  "description": "request.method não pode ser armazenada em uma variável, portanto o if ou elif devem considerar o uso direto de request.method",
+                  "correct": false
+                },
+                {
+                  "id": "a30c9d01-344a-4e33-865c-618414f1779b",
+                  "description": "request.method é uma string e pode ser armazenada em uma variável, portanto caso a informação venha por método GET, irá retornar a string 'Impossível'",
+                  "correct": false
+                },
+                {
+                  "id": "9c06f069-6953-40ec-bd11-49cb5592d08d",
+                  "description": "request.method é uma string e pode ser armazenada em uma variável, porém o app.route nunca receberá GET",
+                  "correct": true
+                },
+                {
+                  "id": "e404b459-8525-49c5-91a1-0b883b4b8889",
+                  "description": "request.method é uma string e pode ser armazenada em uma variável, portanto caso a informação venha por método PUT, retornará a string 'Não funciona'",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "4aeac70f-e993-4676-a3aa-6ede32e3e58c",
+              "description": "Um formulário envia as seguintes informações da composição básica do sangue humano:\r\n'{\"sangue\" : [55, 1, 44]}'\r\n\r\nConsidere que trata-se, respectivamente, de: Plasma, Leucócitos, Eritrócitos.\r\n\r\nFoi usado o comando ______________ para converter a informação do tipo string em json, a seguir podemos dizer, por exemplo, que o plasma refere-se à _____________, enquanto que _____________ refere-se aos leucócitos.\r\n\r\nAvalie as seguintes afirmativas abaixo:\r\n\r\nI - composicao = json.loads(request.data)\r\nII - composicao = jsonify.loads(request.data)\r\nIII - composicao['sangue'][0]\r\nIV - composicao[0]\r\nV - min(composicao)\r\nVI - min(composicao['sangue'])\r\n\r\nA ordem correta das afirmativas acima para preencher as lacunas do texto é:",
+              "active": true,
+              "level": 5,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "2b0b0bee-7253-41d4-a7f8-b08e272cd8c7",
+                  "description": "I, VI e III.",
+                  "correct": false
+                },
+                {
+                  "id": "70934f82-3c73-4419-8b30-8e0444772846",
+                  "description": "II, IV e V.",
+                  "correct": false
+                },
+                {
+                  "id": "b67e41aa-7ee5-4ec4-99f7-a4def1a3da16",
+                  "description": "I, IV e V.",
+                  "correct": false
+                },
+                {
+                  "id": "9779d879-b356-4a5b-addb-b08a84633155",
+                  "description": "II, III e VI.",
+                  "correct": false
+                },
+                {
+                  "id": "9bd50790-407d-4935-8b0a-c501fcef2bee",
+                  "description": "I, III e VI.",
+                  "correct": true
+                }
+              ]
+            }
+          ]
+        },
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "b79d2c92-fb90-4020-ae4c-7709505c5786",
+        "active": true,
+        "name": "Utilizando métodos, biblioteca Request e JSON",
+        "type": "audio",
+        "slug": "utilizando-metodos-biblioteca-request-e-json-2",
+        "content": {
+          "cover": "https://hermes.digitalinnovation.one/contents/cover/b79d2c92-fb90-4020-ae4c-7709505c5786.jpg",
+          "audio": "https://dio-hermes.s3-sa-east-1.amazonaws.com/contents/audio/b79d2c92-fb90-4020-ae4c-7709505c5786.mp3"
+        },
+        "completed": false,
+        "youtube_url": null,
+        "pdf_url": null
+      }
+    ],
+    "course": "47288d46-5127-4c7e-abb7-1bcf274f67e0",
+    "workload": 40,
+    "order": 3,
+    "active": true
+  },
+  {
+    "id": "6e0e5f7c-413a-4e7c-9436-a470a9a19f19",
+    "name": "Desenvolvendo uma Rest Api completa",
+    "available": true,
+    "watched": false,
+    "completed": true,
+    "has_admob": false,
+    "score": 7,
+    "small_cover": null,
+    "large_cover": "https://hermes.digitalinnovation.one/lessons/b895f3f7-d8dc-45ef-9844-1b50ea15088a_large.png",
+    "large_cover_disabled": "https://hermes.digitalinnovation.one/lessons/f5aa3e5d-30a3-410c-ad98-6258744c495d_large_disabled.png",
+    "available_message": null,
+    "description": "Conheça mais sobre o estilo de arquitetura Rest Api e aprenda a trabalhar com ela.",
+    "category": {
+      "id": "80b04dbf-a15d-4de7-aa19-c1022960bada",
+      "name": "",
+      "icon": "fla",
+      "color": "#300f15"
+    },
+    "author": {
+      "id": "6beaa9ec-34d1-4acb-9be9-1114eca84bcf",
+      "name": "Rafael Galleani",
+      "company": {
+        "id": "5892b2d5-eea7-4171-83de-ea09dee11e06",
+        "name": "NEXT Engineering",
+        "year": null,
+        "category": {
+          "id": "fba1b2b1-b3b9-494a-bf8f-dc2eb7f7c417",
+          "name": "Tecnologia da informação e serviços"
+        },
+        "website": "http://www.nextengineering.pt",
+        "photo": "https://hermes.digitalinnovation.one/users/company/5892b2d5-eea7-4171-83de-ea09dee11e06.png"
+      },
+      "position": "Python Developer",
+      "photo": "https://hermes.digitalinnovation.one/users/author/photos/6beaa9ec-34d1-4acb-9be9-1114eca84bcf.png",
+      "linkedin": "https://www.linkedin.com/in/rafael-galleani/#experience-section",
+      "github": null
+    },
+    "reference": {
+      "id": "a712b287-3b0a-4495-b379-edf179bb3487",
+      "name": "Trilhas Python",
+      "author": "Eduardo Pereira",
+      "isbn": "978-85-94188-69-4",
+      "cover": "https://hermes.digitalinnovation.one/books/a712b287-3b0a-4495-b379-edf179bb3487.png"
+    },
+    "next_content": "0837aa13-7ce2-4ea7-926b-3f2c2c5fbe01",
+    "next_slug": "desenvolvendo-uma-rest-api-completa",
+    "contents": [
+      {
+        "id": "0837aa13-7ce2-4ea7-926b-3f2c2c5fbe01",
+        "active": true,
+        "name": "Desenvolvendo uma Rest Api com completa",
+        "type": "video",
+        "slug": "desenvolvendo-uma-rest-api-completa",
+        "content": "https://midia.digitalinnovation.one/ff15352a-bd22-4641-8731-fe00d2044caa/0837aa13-7ce2-4ea7-926b-3f2c2c5f.ism/manifest(format=m3u8-aapl).m3u8",
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "689b9b78-8b68-44f4-a353-f3a96fecb0d4",
+        "active": true,
+        "name": "Desenvolvendo uma Rest Api com completa",
+        "type": "quiz",
+        "slug": "desenvolvendo-uma-rest-api-completa",
+        "content": {
+          "id": "a4114e82-d9d0-4058-af92-c195e84c953b",
+          "question": [
+            {
+              "id": "0f0c2594-8355-4c86-9ceb-7080ae8d3f6d",
+              "description": "Qual a principal diferença entre GET e PUT?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "76858abc-76af-4e6f-a5a9-b6cb2f2c3823",
+                  "description": "O GET é quando todas as informações estão atualizadas, PUT é quando apenas uma parte das informações estão atualizadas.",
+                  "correct": false
+                },
+                {
+                  "id": "453f14ad-b056-439b-b595-89e490ca8b13",
+                  "description": "O GET faz a inserção de novos elementos para o projeto enquanto o PUT envia dados ao mesmo projeto.",
+                  "correct": false
+                },
+                {
+                  "id": "af8a1665-48b5-4edb-aef3-4fdf60ebecfa",
+                  "description": "O GET faz uma requisição para eliminação de dados já o PUT acrescenta dados.",
+                  "correct": false
+                },
+                {
+                  "id": "12f9129a-b458-44e9-af80-d6ba54d7b6e4",
+                  "description": "O GET faz um pedido de pesquisa enquanto o PUT faz a inserção de novos elementos.",
+                  "correct": true
+                },
+                {
+                  "id": "f1d1bd63-a53a-40ab-a0a6-0e305ca35a8c",
+                  "description": "O GET envia dados e o PUT adiciona projetos.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "26e5fc10-d49f-4a7b-84de-a99d2891f8e4",
+              "description": "O comando IndexError ocorre quando:",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "f525f447-d91b-4a8f-9cee-1a19fe2e6398",
+                  "description": "Quando a linha de código possui um erro.",
+                  "correct": false
+                },
+                {
+                  "id": "6e4d0482-5593-40d4-8a03-528fd40ddccd",
+                  "description": "Tipos de dados compostos são utilizados de forma errada.",
+                  "correct": true
+                },
+                {
+                  "id": "fdfdc2eb-502d-4095-a3de-b2536beb2338",
+                  "description": "Quando o erro é acertado.",
+                  "correct": false
+                },
+                {
+                  "id": "8004b9c0-48db-4427-9cec-cc5aeb738d36",
+                  "description": "Quando há uma exceção na linha do código que precisa ser transformada objeto.",
+                  "correct": false
+                },
+                {
+                  "id": "471726b8-37f5-4a65-904c-11d11c8b4e16",
+                  "description": "É preciso encontrar erros de código no projeto.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "a8e8b437-bbfd-4232-9fc9-ade044bb0df5",
+              "description": "Analise o comando abaixo e assinale a alternativa correta:\r\napp.route (‘/dev/<int:id>/’)\r\ndef desenvolvedor (id):\r\n       desenvolver = desenvolvedores [id]\r\n       print (desenvolvedor)",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "51f68efe-71e4-4d7b-aef9-252ee42d02b0",
+                  "description": "O código vai dar erro, pois o comando route deveria estar em []",
+                  "correct": false
+                },
+                {
+                  "id": "b5f758a6-a9fa-480b-a936-1afc4422c91f",
+                  "description": "A função converte valore inteiros para compostos.",
+                  "correct": false
+                },
+                {
+                  "id": "93a72fc3-eac5-4275-9a0c-610fbeb35654",
+                  "description": "O id atribui um valor a uma variável.",
+                  "correct": false
+                },
+                {
+                  "id": "9a65245d-64b7-4204-8f14-f6ba371a57b5",
+                  "description": "Nesse código, o id representa a posição da função.",
+                  "correct": true
+                },
+                {
+                  "id": "4085eeae-62d1-4450-a167-22ea4beb2a73",
+                  "description": "Nenhuma das alternativas.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "258655ac-88ac-447a-ac12-b2a8fca95975",
+              "description": "Leia as sentenças e assinale a alternativa correta. I – O PUT é usado para enviar e armazenar uma informação. II – O POST pressupõe que as informações são apenas parte do processo, não o todo. III – O PUT pode ser usado para criar algo, enquanto o POST é usado para atualizar.",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "8807df0f-9ad7-4765-b37d-a40a840de425",
+                  "description": "Apenas III está errada.",
+                  "correct": true
+                },
+                {
+                  "id": "2849a242-2dc4-4b1e-8f29-09be0f52caa9",
+                  "description": "I e III estão erradas.",
+                  "correct": false
+                },
+                {
+                  "id": "bd52bc9f-d278-4efe-b0bd-68c3848fdf7b",
+                  "description": "Apenas II está correta.",
+                  "correct": false
+                },
+                {
+                  "id": "7bb60825-a8e7-4009-a697-de6f354f011a",
+                  "description": "II e III estão corretas.",
+                  "correct": false
+                },
+                {
+                  "id": "7e8af059-e4db-4865-a080-01c959095ec3",
+                  "description": "Todas estão corretas.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "19cb564a-3131-4e92-b84b-f148e3f700f0",
+              "description": "Veja o seguinte trecho de código abaixo:\r\nplanetas = [\r\n{'Zero':'Sol'},\r\n{'Primeiro':'Mercúrio'},\r\n{'Segundo':'Vênus'},\r\n{'Terceiro':'Terra'},\r\n{'Quarto':'Marte'},\r\n{'Quinto':'Júpiter'},\r\n{'Sexto':'Saturno'},\r\n{'Sétimo':'Urano'},\r\n{'Oitavo':'Netuno'},\r\n{'Nono':'Plutão'},\r\n]\r\n\r\n@app.route('/planetas'/<int:id>/, methods=['GET', 'DELETE'])\r\ndef planeta(id):\r\n  if request.method == 'GET':\r\n    response = planetas[id]\r\n  elif request.method == 'DELETE':\r\n    planetas.pop(id)\r\n\r\nConsiderando que Plutão foi desconsiderado como planeta no final de agosto de 2006 e que o Sol não é um planeta, qual a sequência correta para ajustar o dicionário planetas? (Separados por vírgula)",
+              "active": true,
+              "level": 5,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "e81d2e85-8e8a-4835-9c80-f95c775cc314",
+                  "description": "/planetas/Zero/ , /planetas/Oitavo",
+                  "correct": false
+                },
+                {
+                  "id": "f3ae62ef-1f9d-45b5-9878-da1d12e4e7f9",
+                  "description": "/planetas/8 , /planetas/0",
+                  "correct": false
+                },
+                {
+                  "id": "8d903d29-a3ac-4fc0-bfa3-5c37776dd11b",
+                  "description": "/planetas/8/ , /planetas/0/",
+                  "correct": true
+                },
+                {
+                  "id": "f88107e7-7e00-42b2-a047-15ae3b647108",
+                  "description": "/planetas/9/ , /planetas/0/",
+                  "correct": false
+                },
+                {
+                  "id": "71c010b0-4f14-4909-b0d9-d6ad384dd014",
+                  "description": "/planetas/0/ , /planetas/9/",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "9bcac72d-32ee-4e69-8473-537732118ee0",
+              "description": "Veja o seguinte trecho de código abaixo:\r\n\r\nanimais_extincao = [\r\n{'id': 0,\r\n'nome':'Rinoceronte de sumatra'\r\n'restam' : 100\r\n},\r\n{'id': 1,\r\n'nome': 'Saola'\r\n'restam': 350\r\n},\r\n{'id': 2,\r\n'nome': 'Leopardo de amur'\r\n'restam': 60\r\n}\r\n]\r\n\r\n@app.route('/animais/extincao, methods=['POST'])\r\n  if request.method == 'POST':\r\n    dados = json.loads(request.data)\r\n    posicao = len(animais_extincao)\r\n    dados['id'] = posicao\r\n    animais_extincao.append(dados)\r\n    return jsonify(animais_extincao[posicao])\r\n\r\nMediante o código acima, assinale a alternativa correta:",
+              "active": true,
+              "level": 5,
+              "time": 120,
+              "skill": "70c8f2cf-d667-4f3b-964f-2d7c6be0fd64",
+              "choices": [
+                {
+                  "id": "4177c1e7-5461-4381-a9b2-67439c5dc24a",
+                  "description": "Para incluirmos o Rinoceronte de Java na lista com apenas 60 vivos, enviamos ao aplicativo a informação: {'Rinoceronte de Java', 60}",
+                  "correct": false
+                },
+                {
+                  "id": "385f3fd9-26cc-469b-962d-be9b4ef6db4a",
+                  "description": "Para incluirmos o Rinoceronte branco do norte na lista com apenas 1 vivo, enviamos ao aplicativo a informação: {'nome': 'Rinoceronte branco do norte', 'restam' : 1}",
+                  "correct": true
+                },
+                {
+                  "id": "666257a7-5f0d-44ab-9659-68c9cc55e135",
+                  "description": "Para incluirmos o Kouprey na lista com apenas 50 vivos, enviamos ao aplicativo a informação: {'id': 'Kouprey', 'restam' : 50}",
+                  "correct": false
+                },
+                {
+                  "id": "ba3e60af-0329-4d71-befd-a4de9bf74bd3",
+                  "description": "Para incluirmos o Tigre do Sul da China na lista com apenas 80 vivos, enviamos ao aplicativo a informação: {id: 'Tigre do Sul da China', restam : 80}",
+                  "correct": false
+                },
+                {
+                  "id": "fb7198e8-3523-42b7-ac15-4f448f1fd5c0",
+                  "description": "Para incluirmos o Gorila do Rio Cross na lista com apenas 200 vivos, enviamos ao aplicativo a informação: {'id': Gorila do Rio Cross, 'restam' : 200}",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "1ad1a202-aada-450a-9a9e-2bd410822607",
+              "description": "Você está em um acampamento em busca de água, porém como a reserva de água acabou e não existe rio por perto, você, com a ajuda de um bioquímico, pensam em produzir água. Você ajudará com Python. O bioquímico te diz que a água é uma molécula composta por 3 átomos, sendo 2 hidrogênios e 1 oxigênio. Ele aguarda ansiosamente pelo código.\r\nVeja as opções abaixo:\r\n\r\nI - molecula_agua = [\r\nII - {'atomo':\r\nIII - 'hidrogenio'},\r\nIV - 'atomo'\r\nV - 'oxigenio'},\r\nVI - ]\r\n\r\n\r\nA molécula da água é construída com a seguinte sequência:",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "e42cc504-724e-45fc-bb3b-77437d6f5d02",
+                  "description": "I, II, V, II, III, VI.",
+                  "correct": false
+                },
+                {
+                  "id": "453f9c57-6e86-4f7d-8f53-a745fedf28d5",
+                  "description": "I, II, V, II, V, II, III, VI.",
+                  "correct": false
+                },
+                {
+                  "id": "db811fa7-05a8-4a41-8da3-03fc1cd34bd4",
+                  "description": "I, IV, III, IV, III, IV, III, VI.",
+                  "correct": false
+                },
+                {
+                  "id": "305201cb-c762-4299-a3e6-5889b856ef2b",
+                  "description": "I, II, III, II, V, VI.",
+                  "correct": false
+                },
+                {
+                  "id": "ffbd082c-a08c-4512-8622-ac64f0695858",
+                  "description": "I, II, III, II, III, II, V, VI.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "4c164623-6782-4d4d-8a72-8491f167b18d",
+              "description": "Na aula, o professor desenvolveu o seguinte trecho de código:\r\ntry:\r\n  response = desenvolvedores[id]\r\nexcept IndexError:\r\n\r\nQual a função desse trecho?",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "50bfb84d-e5b7-4e8e-8de1-706712dec909",
+                  "description": "Ao tentar encontrar a chave 'id' na variável desenvolvedores e não encontrá-lo, o código entrará na função except IndexError e poderá mostrar uma mensagem personalizada.",
+                  "correct": false
+                },
+                {
+                  "id": "4cb8a4c3-5487-457b-8f13-b60374e0ce9c",
+                  "description": "Ao tentar encontrar o índice contido na variável id na variável desenvolvedores e não encontrá-lo, o código entrará na função except IndexError e poderá mostrar uma mensagem personalizada.",
+                  "correct": true
+                },
+                {
+                  "id": "19203809-cda5-4480-a5f2-78b11d42fd72",
+                  "description": "Ao tentar encontrar o índice contido na variável id na variável desenvolvedores e encontrá-lo, o código entrará na função except IndexError e poderá mostrar uma mensagem personalizada.",
+                  "correct": false
+                },
+                {
+                  "id": "45623898-fffa-4605-bf72-ef3de4c0a98b",
+                  "description": "Ao tentar encontrar a chave 'id' na variável desenvolvedores e encontrá-lo, o código entrará na função except IndexError e poderá mostrar uma mensagem personalizada.",
+                  "correct": false
+                },
+                {
+                  "id": "56d2140d-d32b-403e-b40b-1637e44ee5f5",
+                  "description": "Ao tentar encontrar o índice contido na variável id na variável desenvolvedores, independente de encontrá-lo ou não, o código entrará na função except IndexError e poderá mostrar uma mensagem personalizada.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "a181b8fe-f1d1-49e1-a976-cd9f09720cce",
+              "description": "Nós, programadores, utilizamos os dedos das mãos para programar, salvo situações excepcionais. É importante cuidar das mãos enquanto digita por muito tempo para evitar lesões por repetição, dando a si mesmo não só um descanso necessário quanto correta postura e posicionamento das mãos durante o trabalho (ou jogos). Sendo assim, pensando nas mãos, visualize a construção esquelética da mão:\r\n\r\ndedos = [\r\n{\r\n'id' : 0,\r\n'nome' : 'indicador',\r\n'articulações' : 2,\r\n'tecla' : 'R'\r\n},\r\n{\r\n'id' : 1,\r\n'nome' : 'médio',\r\n'articulações' : 2,\r\n'tecla' : 'E'\r\n},\r\n{\r\n'id' : 2,\r\n'nome' : 'anelar',\r\n'articulações' : 2,\r\n'tecla' : 'W'\r\n},\r\n{\r\n'id' : 3,\r\n'nome' : 'mínimo',\r\n'articulações' : 2,\r\n'tecla' : 'Q'\r\n},\r\n{\r\n'id' : 4,\r\n'nome' : 'polegar',\r\n'articulações' : 1,\r\n'tecla' : ' '\r\n}\r\n]\r\n\r\nCom base nesse dicionário e montando um print correto, é possível afirmar:",
+              "active": true,
+              "level": 5,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "1b5390f4-ad45-43e1-8f63-fcc0a88c2165",
+                  "description": "print('O {dedos[4]['nome'] é muito usado para a tecla espaço.'))",
+                  "correct": false
+                },
+                {
+                  "id": "5e40b0d7-ae85-4851-8d2a-8004a0093696",
+                  "description": "print('O {} não é usado para nada, por isso está vazio.'format(dedos[4]['nome']))",
+                  "correct": false
+                },
+                {
+                  "id": "548203e4-fefd-4b99-97e0-e6ccaeb99d8b",
+                  "description": "print('O {} é muito usado para a tecla espaço.'format(dedos[4]['nome']))",
+                  "correct": false
+                },
+                {
+                  "id": "4c95e1bd-ec1a-4afb-8fe1-cfe9cb1e52d2",
+                  "description": "print('O {} não é usado para nada, por isso está vazio.'.format(dedos[4]['nome']))",
+                  "correct": false
+                },
+                {
+                  "id": "e47b8be2-6a44-4062-8134-e1b66b6cd3b5",
+                  "description": "print('O {} é muito usado para a tecla espaço.'.format(dedos[4]['nome']))",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "987f8aad-8dbc-4e03-80b7-1d934cc8868d",
+              "description": "Na aula, o professor desenvolveu o seguinte trecho de código:\r\ntry:\r\n  response = desenvolvedores[id]\r\nexcept Exception:\r\n  mensagem = 'Entrou aqui'\r\n\r\nCom base apenas no trecho de código acima, responda:",
+              "active": true,
+              "level": 3,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "e6689c3f-52a0-4f61-8009-8ef9adbb5e8f",
+                  "description": "O programa executará o conteúdo em except Exception apenas se a variável id for um inteiro que represente um índice inexistente na variável desenvolvedores.",
+                  "correct": false
+                },
+                {
+                  "id": "cd0e2644-d1c8-4f1c-adb3-48977188aa17",
+                  "description": "O programa executará o conteúdo em except Exception caso ocorra qualquer erro na execução do conteúdo de try.",
+                  "correct": true
+                },
+                {
+                  "id": "1942aa4f-64f6-4336-ac3a-f70212576833",
+                  "description": "O programa executará o conteúdo em except Exception apenas se a variável id for do tipo string.",
+                  "correct": false
+                },
+                {
+                  "id": "8c6e753f-707b-4a95-98a3-6a2226594183",
+                  "description": "O programa executará o conteúdo em except Exception caso o conteúdo de desenvolvedores[id] for do tipo Exception.",
+                  "correct": false
+                },
+                {
+                  "id": "a13aa2ed-2224-4a46-874a-b74df1f2f675",
+                  "description": "O programa executará o conteúdo em except Exception caso a variável response seja igual à variável mensagem.",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "5f2e0831-900a-4acd-8fc2-885218570cf0",
+        "active": true,
+        "name": "Desenvolvendo uma Rest Api completa",
+        "type": "audio",
+        "slug": "desenvolvendo-uma-rest-api-completa",
+        "content": {
+          "cover": "https://hermes.digitalinnovation.one/contents/cover/5f2e0831-900a-4acd-8fc2-885218570cf0.jpg",
+          "audio": "https://dio-hermes.s3-sa-east-1.amazonaws.com/contents/audio/5f2e0831-900a-4acd-8fc2-885218570cf0.mp3"
+        },
+        "completed": false,
+        "youtube_url": null,
+        "pdf_url": null
+      }
+    ],
+    "course": "47288d46-5127-4c7e-abb7-1bcf274f67e0",
+    "workload": 40,
+    "order": 4,
+    "active": true
+  },
+  {
+    "id": "ce49cf1a-ffa4-43d5-a869-51e5a1462741",
+    "name": "Desenvolvendo uma REST API com a extensão Flask-RESTful",
+    "available": true,
+    "watched": true,
+    "completed": true,
+    "has_admob": false,
+    "score": 7,
+    "small_cover": null,
+    "large_cover": "https://hermes.digitalinnovation.one/lessons/2765103e-c5bc-4f2e-9547-17ead4f61f30_large.png",
+    "large_cover_disabled": "https://hermes.digitalinnovation.one/lessons/4efce5eb-87a8-4dfb-b00d-8e3e38b0259a_large_disabled.png",
+    "available_message": null,
+    "description": "Aprenda sobre Restful, uma extensão do Flask, e como implementá-la no hora de programar.",
+    "category": {
+      "id": "80b04dbf-a15d-4de7-aa19-c1022960bada",
+      "name": "",
+      "icon": "fla",
+      "color": "#300f15"
+    },
+    "author": {
+      "id": "6beaa9ec-34d1-4acb-9be9-1114eca84bcf",
+      "name": "Rafael Galleani",
+      "company": {
+        "id": "5892b2d5-eea7-4171-83de-ea09dee11e06",
+        "name": "NEXT Engineering",
+        "year": null,
+        "category": {
+          "id": "fba1b2b1-b3b9-494a-bf8f-dc2eb7f7c417",
+          "name": "Tecnologia da informação e serviços"
+        },
+        "website": "http://www.nextengineering.pt",
+        "photo": "https://hermes.digitalinnovation.one/users/company/5892b2d5-eea7-4171-83de-ea09dee11e06.png"
+      },
+      "position": "Python Developer",
+      "photo": "https://hermes.digitalinnovation.one/users/author/photos/6beaa9ec-34d1-4acb-9be9-1114eca84bcf.png",
+      "linkedin": "https://www.linkedin.com/in/rafael-galleani/#experience-section",
+      "github": null
+    },
+    "reference": {
+      "id": "a712b287-3b0a-4495-b379-edf179bb3487",
+      "name": "Trilhas Python",
+      "author": "Eduardo Pereira",
+      "isbn": "978-85-94188-69-4",
+      "cover": "https://hermes.digitalinnovation.one/books/a712b287-3b0a-4495-b379-edf179bb3487.png"
+    },
+    "next_content": "88212fb5-0083-43d1-a265-32c173779c29",
+    "next_slug": "desenvolvendo-uma-rest-api-com-extensao-flask-restful",
+    "contents": [
+      {
+        "id": "88212fb5-0083-43d1-a265-32c173779c29",
+        "active": true,
+        "name": "Desenvolvendo uma REST API com a extensão Flask-RESTful",
+        "type": "video",
+        "slug": "desenvolvendo-uma-rest-api-com-extensao-flask-restful",
+        "content": "https://midia.digitalinnovation.one/0b90a7cb-284c-4047-a241-91e3ac79d3d3/88212fb5-0083-43d1-a265-32c17377.ism/manifest(format=m3u8-aapl).m3u8",
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "1f1a16af-f727-4886-b42d-0844c0c8521b",
+        "active": true,
+        "name": "Desenvolvendo uma REST API com a extensão Flask-RESTful",
+        "type": "quiz",
+        "slug": "desenvolvendo-uma-rest-api-com-extensao-flask-restful",
+        "content": {
+          "id": "df54a60e-934f-4521-874f-9dc444943b06",
+          "question": [
+            {
+              "id": "321405fc-33cb-4052-9554-f8ebf372022b",
+              "description": "Na aula o professor mostrou a estrutura básica do Restful, veja abaixo o seguinte trecho:\r\n\r\n_______ Desenvolvedor(_______):\r\n  def get(self):\r\n    return 'Olá dev'\r\n\r\nQuais as expressões preenchem, respectivamente, as lacunas acima? (Separado por vírgula)",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "11dffdac-d7e6-4af5-a81d-6d8bc50220b7",
+              "choices": [
+                {
+                  "id": "71389c5c-7cc6-4845-a154-18231bd89b19",
+                  "description": "Class, Resource",
+                  "correct": false
+                },
+                {
+                  "id": "eaee438c-b78c-425e-89d0-2c175a10d7d7",
+                  "description": "add, Resource",
+                  "correct": false
+                },
+                {
+                  "id": "fd6a2b39-9cd0-4a46-8e6e-ec216f683c0b",
+                  "description": "api, Resource",
+                  "correct": false
+                },
+                {
+                  "id": "86a73522-9aff-4e19-84de-33490438ec1d",
+                  "description": "resource, Class",
+                  "correct": false
+                },
+                {
+                  "id": "8e436e75-ced5-42f1-a06a-37cc5a850f41",
+                  "description": "class, Resource",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "81eb4ffb-5c66-473b-a58e-a0812537cfab",
+              "description": "Um parque de diversões te contratou para ajustar um sistema do brinquedo \"Rei do Martelo\", na qual consiste em bater em um botão com um martelo, com o máximo de força possível. A força é mostrada em uma tela após a pancada. O sistema usou REST, mas parece estar com defeito e querem atualizar para RestFul antes que o parque de diversão entre em falência por causa disso. Veja abaixo:\r\n\r\n@app.route('/baterMartelo/<int: forca>', methods=['POST', 'GET'])\r\ndef bater(forca):\r\n  if request.method == 'GET'\r\n    return jsonify({'tela':forca})\r\n  elif request.method = 'POST'\r\n    tela = forca\r\n    \r\n\r\nQual das opções abaixo são necessárias?\r\n\r\nI - O @app.route precisa ser trocado pelo api.add_resource\r\nII - O if e elif para cada request.method é transformado em um def específico.\r\nIII - A variável tela é excluída.\r\nIV - O comando jsonify é removido, pois o RestFul não requer esse comando.\r\n\r\nEstão corretas as alternativa:",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "11dffdac-d7e6-4af5-a81d-6d8bc50220b7",
+              "choices": [
+                {
+                  "id": "7d5c56d6-cf02-4628-a237-35c5c9eae10b",
+                  "description": "Apenas I e IV.",
+                  "correct": false
+                },
+                {
+                  "id": "a6390e61-b5eb-4d68-a193-89767e482901",
+                  "description": "Apenas I e II.",
+                  "correct": false
+                },
+                {
+                  "id": "29964d5b-37b1-403b-a718-02c047862d10",
+                  "description": "Apenas II e IV.",
+                  "correct": false
+                },
+                {
+                  "id": "6051ee66-6522-4834-b945-b393e6987317",
+                  "description": "Apenas III e IV.",
+                  "correct": false
+                },
+                {
+                  "id": "8e03e894-1aec-4173-bbe7-f78c116f096e",
+                  "description": "Apenas I, II e IV.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "45a42918-7115-40d2-981f-efac5a6c0091",
+              "description": "O professor, durante a aula, ao comparar o Rest e o Restful, definiu vantagens do segundo sobre o primeiro. Qual das alternativas abaixo refletem essa vantagem?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "11dffdac-d7e6-4af5-a81d-6d8bc50220b7",
+              "choices": [
+                {
+                  "id": "b1de9696-30cc-4107-8c2d-2ede6b0ae831",
+                  "description": "Nenhuma das alternativas.",
+                  "correct": false
+                },
+                {
+                  "id": "cb5ab508-25e8-419d-9f47-154ee76aa108",
+                  "description": "O comando def não é mais necessário.",
+                  "correct": false
+                },
+                {
+                  "id": "ece79ea1-8d93-43cb-a612-88f9edc3c49b",
+                  "description": "O comando request.data não é mais necessário.",
+                  "correct": false
+                },
+                {
+                  "id": "9f7eb2f6-c49f-46d8-bbea-fb8e575546bd",
+                  "description": "O comando json.loads não é mais necessário.",
+                  "correct": false
+                },
+                {
+                  "id": "e67a363c-0f21-4a85-935d-999268ba28a1",
+                  "description": "O comando jsonify não é mais necessário.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "54bc8fc8-3a61-4bb3-ba3b-22d1951ed2f7",
+              "description": "Você está desenvolvendo um software com uma amiga para cadastrar bolos veganos. Ela desenvolve um arquivo chamado bolos.py contendo o seguinte código:\r\n\r\nfrom flask_restful import Resources\r\n\r\nlista_bolos = ['Limão', 'Paçoca', 'Coco', 'Vulcão de Cenoura com Brigadeiro', 'Frutas amarelas', 'Frapê', 'Café e chocolate']\r\nclass Bolos(Resource):\r\n  def get(self):\r\n    return lista_bolos\r\n\r\nCom base nesse código acima, qual das opções abaixo são requeridos para chamar este arquivo exterior para o seu arquivo?\r\n\r\nI - api.add_resource(Bolos, '/lista_bolos/')\r\nII - from bolos import Bolos\r\nIII - import bolos from Bolos\r\nIV - api.add_resource(Bolos, '/bolos/')\r\n\r\nSão opções válidas os códigos nos itens:",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "11dffdac-d7e6-4af5-a81d-6d8bc50220b7",
+              "choices": [
+                {
+                  "id": "2beefbfe-4474-4419-9a50-a4a827453945",
+                  "description": "Apenas II e IV.",
+                  "correct": false
+                },
+                {
+                  "id": "13cdc6bd-08c4-4740-8d02-9fba7d7dbdd2",
+                  "description": "Apenas I e II.",
+                  "correct": false
+                },
+                {
+                  "id": "a97babdb-dcf9-407d-8932-249a4202b948",
+                  "description": "Apenas I, III e IV.",
+                  "correct": false
+                },
+                {
+                  "id": "9f7e3bfc-995d-46fb-b747-8d7d724a617f",
+                  "description": "Apenas III e IV.",
+                  "correct": false
+                },
+                {
+                  "id": "5cd5446b-060b-4a20-bdfd-a4604ba1e69e",
+                  "description": "Apenas I, II e IV.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "a81f71a3-0821-484b-b9a8-de42c8e6409c",
+              "description": "Observe o seguinte trecho de código que foi usado durante a aula:\r\n\r\ndesenvolvedores = [\r\n{\r\n'id' : 0,\r\n'nome' : 'Rafael',\r\n'habilidades' : ['Python', 'Flask']\r\n}\r\n]\r\n\r\nclass Desenvolvedor(Resource):\r\n  def get(self, id):\r\n    try:\r\n      response = desenvolvedores[id]\r\n    except Exception:\r\n      response = {'status':'erro'}\r\n    return response\r\n\r\napi.add_resource(Desenvolvedor, '/dev/id/')\r\n\r\nConsidere que este código acima foi acessado pelo seguinte endereço:\r\nhttp://127.0.0.1:5000/dev/0/\r\n\r\nApós esse acesso, o código retornou o json contendo erro ao invés do conteúdo de desenvolvedores, qual foi o motivo?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "91d23d52-46db-479c-af2c-635591275ab0",
+                  "description": "A linha de código correta é api.add_resource(Desenvolvedor, 'dev/<int:id>/')",
+                  "correct": false
+                },
+                {
+                  "id": "b4830fc8-a516-4a84-b4ab-a7df1aad6113",
+                  "description": "A linha de código correta é api.add_resource(Desenvolvedor, '/dev/<int:id>')",
+                  "correct": false
+                },
+                {
+                  "id": "a686dfaf-10b6-453d-80c5-fbdc8258a478",
+                  "description": "A linha de código correta é api.add_resource(Desenvolvedor, 'dev/<int:id>')",
+                  "correct": false
+                },
+                {
+                  "id": "79da5f7e-f5df-4b96-ae1c-a1a072eaea05",
+                  "description": "A linha de código correta é api.add_resource(Desenvolvedor, '/dev/<int id>/')",
+                  "correct": false
+                },
+                {
+                  "id": "aee43e26-c28b-4249-8dd5-f732684c82bb",
+                  "description": "A linha de código correta é api.add_resource(Desenvolvedor, '/dev/<int:id>/')",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "69946ee6-5492-44ac-bc92-aeaa9b63adde",
+              "description": "Qual a função do requirements em Flask?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "6fc3900d-a09f-4a41-97f9-758866c770af",
+              "choices": [
+                {
+                  "id": "cd346f71-9a18-47a0-9766-7651f2067181",
+                  "description": "É remover os arquivos de lista do projeto.",
+                  "correct": false
+                },
+                {
+                  "id": "53c8376a-fb0d-4066-ad4e-614503308dbb",
+                  "description": "Manter os arquivos concatenados em ordem alfabética.",
+                  "correct": false
+                },
+                {
+                  "id": "cea96de1-aa7f-43df-9b00-7c034fdbaec1",
+                  "description": "Gerenciar dependências internas.",
+                  "correct": false
+                },
+                {
+                  "id": "fbc03324-45f3-42a7-85ba-e6d2e15bd9d6",
+                  "description": "É gerar uma lista de itens ou pacotes que serão importados.",
+                  "correct": false
+                },
+                {
+                  "id": "7186babe-f0d7-4f61-b6a0-f483131e7255",
+                  "description": "Especificar uma lista de dependências em um arquivo de texto qualquer.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "0fff585c-f3fc-409b-b059-83f7f5a37334",
+              "description": "Assinale a alternativa correta em relação às diferenças entre REST e RESTful:",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "6fc3900d-a09f-4a41-97f9-758866c770af",
+              "choices": [
+                {
+                  "id": "cc9b72b4-0b8b-46e4-9868-331203c73365",
+                  "description": "REST é usado para elaboração de páginas web enquanto RESTful é aplicado para explorar essa implantação.",
+                  "correct": false
+                },
+                {
+                  "id": "4452eb99-62c2-4a0f-ad59-d208f599a440",
+                  "description": "REST é uma arquitetura que explora a tecnologia web e RESTful é usado para implementações web, como, por exemplo, arquitetura.",
+                  "correct": true
+                },
+                {
+                  "id": "b0a9715c-eb28-420a-aa74-1a53693bfa90",
+                  "description": "REST é usado para comunicação web e RESTful é o protocolo criado para estender a tecnologia.",
+                  "correct": false
+                },
+                {
+                  "id": "812a85f2-4a45-4f40-993f-3f0e4fba6df5",
+                  "description": "REST é normalmente utilizado para a parte web enquanto RESTful é a arquitetura da tecnologia web.",
+                  "correct": false
+                },
+                {
+                  "id": "90309527-687b-47ff-b177-33aaada38442",
+                  "description": "RESTful é uma arquitetura que define padrões baseados em HTTP e REST é a implementação de um web service.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "36224421-b6ab-44ed-a852-28360043de93",
+              "description": "Leia as sentenças e assinale a alternativa correta.\r\nI - O RESTful permite que todos os códigos sejam mapeados, independente do módulo.\r\nII – REST exige um padrão ou protocolo a ser seguido.\r\nIII – REST é uma nova maneira de criações web services.",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "6fc3900d-a09f-4a41-97f9-758866c770af",
+              "choices": [
+                {
+                  "id": "ae0fee96-9a61-42cf-8365-c05d9fb36009",
+                  "description": "II e III estão erradas.",
+                  "correct": false
+                },
+                {
+                  "id": "300f0063-ff70-43e7-a6d9-004b35b0ff04",
+                  "description": "I e II estão corretas.",
+                  "correct": false
+                },
+                {
+                  "id": "367f9935-d63b-4ff3-97ba-dbce594391f8",
+                  "description": "Apenas I está correta.",
+                  "correct": false
+                },
+                {
+                  "id": "6130ff54-3b87-4fc8-9709-441a2938d53c",
+                  "description": "Todas estão erradas.",
+                  "correct": false
+                },
+                {
+                  "id": "e5698fe9-4767-4353-882a-38756b338bb5",
+                  "description": "Apenas II está errada.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "f3def6d0-5ecd-4d79-9875-3236cc0f80ac",
+              "description": "Uma REST API possui dois principais conceitos: recursos e coleções. Assinale a alternativa que define corretamente cada um deles:",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "6fc3900d-a09f-4a41-97f9-758866c770af",
+              "choices": [
+                {
+                  "id": "426b28f4-52d3-4174-9d1e-4dd3f5120685",
+                  "description": "Recurso é um objeto único enquanto conjunto é qualquer informação que possa receber um nome.",
+                  "correct": false
+                },
+                {
+                  "id": "def4ce7d-1572-4c35-9689-f8692a1d5cb6",
+                  "description": "Recuso é a forma exata das informações contidas no banco de dados, coleção é qualquer conceito que possa se encaixar em recurso.",
+                  "correct": false
+                },
+                {
+                  "id": "4cba7657-6288-4948-9b64-6611a9a64ee6",
+                  "description": "Recursos são lotes que precisam ser modificados, e coleções são todos os itens agrupados e separados por URI.",
+                  "correct": false
+                },
+                {
+                  "id": "1ef54228-235a-4960-ab09-0e5f5e22c173",
+                  "description": "Recurso representa um objeto enquanto coleção é um conjunto de recursos.",
+                  "correct": true
+                },
+                {
+                  "id": "23891462-c800-401e-b0c9-a8ec4938edfa",
+                  "description": "Nenhuma das alternativas está correta.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "a61161f3-d3c7-4d9a-b52b-a49e250f6c00",
+              "description": "Um carro comum possui, dentre diversas funções, as seguintes:\r\n\r\napi.add_resource(Acelerar, '/acelerar/<int:intensidade>/')\r\napi.add_resource(Frear, '/frear/<int:intensidade>/')\r\napi.add_resource(Embreagem, '/embreagem/<int:intensidade>')\r\napi.add_resource(Cambio, '/cambio/<int:marcha>')\r\n\r\nSendo assim, selecione abaixo a melhor definição desse comando:",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "66182910-2a84-4dad-89e3-155dbed38319",
+                  "description": "Acelerar, por exemplo, é o nome correspondente de uma função (def), composto por códigos internos.",
+                  "correct": false
+                },
+                {
+                  "id": "3d63896b-d84f-4394-885c-e34ca99d4e47",
+                  "description": "'/cambio/<int:marcha>' é o nome da função que vai dentro da classe chamada Cambio.",
+                  "correct": false
+                },
+                {
+                  "id": "dac90a0d-f857-4c03-ac1f-42afa506036f",
+                  "description": "api.add_resource é composto por dois parâmetros, sendo respectivamente o nome da classe e o nome da função.",
+                  "correct": false
+                },
+                {
+                  "id": "bde44884-c5ee-4540-89d9-00a6a6cf728d",
+                  "description": "Embreagem, por exemplo, é a string de uma condição dentro de uma função.",
+                  "correct": false
+                },
+                {
+                  "id": "2063f147-ab50-45e4-90ee-eb4b59c2837c",
+                  "description": "Frear, por exemplo, é o nome correspondente de uma classe (class), composto por funções como def get(self), def post(self)",
+                  "correct": true
+                }
+              ]
+            }
+          ]
+        },
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "e9647b78-89d4-408b-a79e-55cf23b5117b",
+        "active": true,
+        "name": "Desenvolvendo uma REST API com a extensão Flask-RESTful",
+        "type": "audio",
+        "slug": "desenvolvendo-uma-rest-api-com-extensao-flask-restful",
+        "content": {
+          "cover": "https://hermes.digitalinnovation.one/contents/cover/e9647b78-89d4-408b-a79e-55cf23b5117b.jpg",
+          "audio": "https://dio-hermes.s3-sa-east-1.amazonaws.com/contents/audio/e9647b78-89d4-408b-a79e-55cf23b5117b.mp3"
+        },
+        "completed": false,
+        "youtube_url": null,
+        "pdf_url": null
+      }
+    ],
+    "course": "47288d46-5127-4c7e-abb7-1bcf274f67e0",
+    "workload": 40,
+    "order": 5,
+    "active": true
+  },
+  {
+    "id": "49004e87-a08e-4c65-ad89-aae6a15115f7",
+    "name": "Manipulando banco de dados com SQLAlchemy",
+    "available": true,
+    "watched": false,
+    "completed": true,
+    "has_admob": false,
+    "score": 7,
+    "small_cover": null,
+    "large_cover": "https://hermes.digitalinnovation.one/lessons/ee94c402-5ebf-4cb5-9128-43413a10e595_large.png",
+    "large_cover_disabled": "https://hermes.digitalinnovation.one/lessons/d5bbd58a-5993-4b23-b0f7-86b751feac4f_large_disabled.png",
+    "available_message": null,
+    "description": "Saiba como trabalhar com banco de dados SQLAlchemy, um conjunto de ferramentas que proporciona uma API para desenvolvimento do código.",
+    "category": {
+      "id": "80b04dbf-a15d-4de7-aa19-c1022960bada",
+      "name": "",
+      "icon": "fla",
+      "color": "#300f15"
+    },
+    "author": {
+      "id": "6beaa9ec-34d1-4acb-9be9-1114eca84bcf",
+      "name": "Rafael Galleani",
+      "company": {
+        "id": "5892b2d5-eea7-4171-83de-ea09dee11e06",
+        "name": "NEXT Engineering",
+        "year": null,
+        "category": {
+          "id": "fba1b2b1-b3b9-494a-bf8f-dc2eb7f7c417",
+          "name": "Tecnologia da informação e serviços"
+        },
+        "website": "http://www.nextengineering.pt",
+        "photo": "https://hermes.digitalinnovation.one/users/company/5892b2d5-eea7-4171-83de-ea09dee11e06.png"
+      },
+      "position": "Python Developer",
+      "photo": "https://hermes.digitalinnovation.one/users/author/photos/6beaa9ec-34d1-4acb-9be9-1114eca84bcf.png",
+      "linkedin": "https://www.linkedin.com/in/rafael-galleani/#experience-section",
+      "github": null
+    },
+    "reference": {
+      "id": "a712b287-3b0a-4495-b379-edf179bb3487",
+      "name": "Trilhas Python",
+      "author": "Eduardo Pereira",
+      "isbn": "978-85-94188-69-4",
+      "cover": "https://hermes.digitalinnovation.one/books/a712b287-3b0a-4495-b379-edf179bb3487.png"
+    },
+    "next_content": "62d876f2-1981-4da6-9147-d88757b1ce7e",
+    "next_slug": "manipulando-banco-de-dados-com-sqlalchemy",
+    "contents": [
+      {
+        "id": "62d876f2-1981-4da6-9147-d88757b1ce7e",
+        "active": true,
+        "name": "Manipulando banco de dados com SQLAlchemy",
+        "type": "video",
+        "slug": "manipulando-banco-de-dados-com-sqlalchemy",
+        "content": "https://midia.digitalinnovation.one/ded802cd-87ee-48d4-8bf5-2886abeb641f/62d876f2-1981-4da6-9147-d88757b1.ism/manifest(format=m3u8-aapl).m3u8",
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "23a46e1e-4f7a-4a37-83c7-395acd4a3746",
+        "active": true,
+        "name": "Manipulando banco de dados com SQLAlchemy",
+        "type": "quiz",
+        "slug": "manipulando-banco-de-dados-com-sqlalchemy-1",
+        "content": {
+          "id": "273fe06b-6738-48d7-8b63-cfbd30a73a33",
+          "question": [
+            {
+              "id": "f203e147-a2f3-448f-b9f3-a14160290320",
+              "description": "Na aula, o professor utilizou o recurso de ForeignKey para importar dados. Considere o seguinte trecho de código:\r\n\r\nclass Cartas(Base):\r\n  __tablename__ = 'cartas'\r\n  id = Column(Integer, primary_key=True)\r\n  nome = Column(String(40), index=True)\r\n  nipe = Column(Integer)\r\n  def __repr__ (self):\r\n    return '<Carta {}>'.format(self.nome)\r\n\r\nCom base no código acima, se você quer criar uma outra classe que importe o atributo nipe da classe acima, qual o código e justificativa corretamente relacionados que apresentam a solução?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "cd99e16e-b2b2-4c30-8726-271e774b2461",
+              "choices": [
+                {
+                  "id": "e0ba1225-fc33-48b8-8821-21d9b2fe2981",
+                  "description": "Deve ser usado cartas_nipe = Column(Integer, ForeignKey('cartas.nipe')) porque cartas é o nome da tabela e nipe o nome da coluna da tabela.",
+                  "correct": true
+                },
+                {
+                  "id": "b18b2bea-748f-400c-8151-c9e86c070966",
+                  "description": "Deve ser usado cartas_nipe = Column(Integer, ForeignKey('cartas.nipe')) porque cartas é o nome da classe e nipe o nome da coluna da tabela.",
+                  "correct": false
+                },
+                {
+                  "id": "75bd1fd9-cde3-49c2-96e4-8bd6c9f887c5",
+                  "description": "Deve ser usado cartas_nipe = Column(Integer, ForeignKey('cartas.nipe')) porque cartas é o nome da classe e nipe a variável da classe.",
+                  "correct": false
+                },
+                {
+                  "id": "b956491d-cacb-41df-9124-8a282a3e3d08",
+                  "description": "Deve ser usado cartas_nipe = Column(Integer, ForeignKey('Cartas.nipe')) porque cartas é o nome da classe e nipe o nome da coluna da tabela.",
+                  "correct": false
+                },
+                {
+                  "id": "1a49f9c8-a704-48b1-9ccd-5ca6445dfe09",
+                  "description": "Deve ser usado cartas_nipe = Column(ForeignKey('Cartas.nipe')) porque Cartas é o nome da tabela e nipe é a variável da classe.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "8e29cfb7-2cfb-498e-9de7-b99864770ef0",
+              "description": "Na aula, o professor criou dois arquivos. Um se chama models.py e o outro utils.py. O arquivo models.py contém a estrutura básica de construção da tabela, enquanto que utils.py contém a estrutura básica de manipulação da tabela. Sendo assim, foi necessário usar o seguinte comando em utils.py:\r\nfrom models import Pessoas\r\n\r\nQual a melhor justificativa desse comando?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "9da0cbd1-e335-4626-909d-90fd623de3b9",
+              "choices": [
+                {
+                  "id": "574abfc2-d58b-4cf8-91eb-8f69adc17975",
+                  "description": "models é o nome do arquivo, na qual contém a coluna Pessoas.",
+                  "correct": false
+                },
+                {
+                  "id": "ff19ee9c-4340-4052-b60d-59907142e094",
+                  "description": "models é o nome do arquivo, na qual contém a função Pessoas.",
+                  "correct": false
+                },
+                {
+                  "id": "09e229b2-d30e-4ec7-a2b7-a1aa98b2d096",
+                  "description": "models é o nome do arquivo, na qual contém a tabela Pessoas.",
+                  "correct": false
+                },
+                {
+                  "id": "8062699e-7d39-4820-93b4-e8d00162cd3f",
+                  "description": "models é o nome do arquivo, na qual contém o id Pessoas.",
+                  "correct": false
+                },
+                {
+                  "id": "f1b4a9b1-d1c7-4283-a3e9-eb50c039e139",
+                  "description": "models é o nome do arquivo, na qual contém a classe Pessoas.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "d7209b81-80e2-4923-91c3-9a97caba7f56",
+              "description": "Existe um jogo chamado Yu-Gi-Oh, na qual consiste em uma coleção enorme de criaturas fantásticas com poderes usados para guerrearem entre si e são controladas por um mestre. Este mestre é um jogador e tais criaturas são invocadas mediante o uso de cartas que as representam. Sendo assim, observe o seguinte código:\r\n\r\nclass Cartas(Base):\r\n  __tablename__ = 'cartas'\r\n  id = Column(Integer, primary_key=True)\r\n  criatura = Column(String(40), index=True)\r\n  ataque = Column(Integer)\r\n  defesa = Column(Integer)\r\n  atributo = Column(String(20))\r\n  def __repr__ (self):\r\n    return '<Carta {}>'.format(self.nome)\r\n\r\n\r\nVocê precisa cadastrar a carta de nome \"Dragão Branco de Olhos Azuis\", com ataque de 3000, defesa 2500 e atributo \"Luz\", portanto observe o código abaixo:\r\n\r\ndef insere_carta():\r\n  ____________________\r\n  db_session.add(carta)\r\n  db_session.commit()\r\n\r\nQual das opções abaixo melhor preenche a lacuna?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "cd99e16e-b2b2-4c30-8726-271e774b2461",
+              "choices": [
+                {
+                  "id": "eb79e3b4-2f73-4494-84f8-11165247f7b7",
+                  "description": "carta = Cartas(nome='Dragão Branco de Olhos Azuis', ataque=3000, defesa=2500, atributo=\"Luz\")",
+                  "correct": false
+                },
+                {
+                  "id": "9ece2562-8ebd-448b-ba71-61bdc9f7bd50",
+                  "description": "carta = Cartas(criatura='Dragão Branco de Olhos Azuis', ataque=2500, defesa=3000, atributo=\"Luz\")",
+                  "correct": false
+                },
+                {
+                  "id": "2bedcdb4-2ab3-4263-9ad6-c5a3a1526be4",
+                  "description": "Carta = cartas(criatura='Dragão Branco de Olhos Azuis', ataque=3000, defesa=2500, atributo=\"Luz\")",
+                  "correct": false
+                },
+                {
+                  "id": "1cd0f9ed-0998-4ec3-bb88-5161d91d0ee0",
+                  "description": "carta = Cartas(criatura=Dragão Branco de Olhos Azuis, ataque=3000, defesa=2500, atributo=Luz)",
+                  "correct": false
+                },
+                {
+                  "id": "34b8ba72-ff8f-496b-9615-7e8ff1110ff1",
+                  "description": "carta = Cartas(criatura='Dragão Branco de Olhos Azuis', ataque=3000, defesa=2500, atributo='Luz')",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "337febe8-9c41-4036-b690-cdb3e13274cd",
+              "description": "Observe as opções abaixo e construa uma linha de comando que seja capaz de recuperar uma lista de dados de um banco de dados, cuja tabela se chama Personagens filtrado por uma string na coluna anime.\r\n\r\nI - Personagens.\r\nII - (anime='One Punch Man')\r\nIII - filter_by\r\nIV - filtered_by\r\nV - query.\r\n\r\nA ordem correta de dispor os elementos acima é:",
+              "active": true,
+              "level": 1,
+              "time": 120,
+              "skill": "9da0cbd1-e335-4626-909d-90fd623de3b9",
+              "choices": [
+                {
+                  "id": "cb9f167c-4f1a-4282-b2fd-b09ec936b54c",
+                  "description": "I, III, V, II.",
+                  "correct": false
+                },
+                {
+                  "id": "3aa04f4d-fe31-4fec-b89f-75126294ddb8",
+                  "description": "I, V, IV, II.",
+                  "correct": false
+                },
+                {
+                  "id": "7a156a43-a48e-4308-a1fb-d1e05e390c11",
+                  "description": "III, V, I, II.",
+                  "correct": false
+                },
+                {
+                  "id": "ccd52e96-e031-47dc-ab02-118afd8529b6",
+                  "description": "I, IV, V, II.",
+                  "correct": false
+                },
+                {
+                  "id": "4b244d80-d7a8-4835-8759-b0bbadfd7425",
+                  "description": "I, V, III, II.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "897d9949-9e82-4066-9c5c-b07b19c60d3f",
+              "description": "Observe os comandos abaixo:\r\n\r\nI - Cachoeiras.query.all()\r\nII - Montanhas.query.filter_by(pais='África')\r\nIII - Praias.query.filter_by(pais='Brasil').first()\r\n\r\nCom base nos três comando acima, qual alternativa melhor reflete o resultado dessas execuções?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "cd99e16e-b2b2-4c30-8726-271e774b2461",
+              "choices": [
+                {
+                  "id": "5fbeef21-2e98-4a35-83fe-c0cab5f56bbc",
+                  "description": "O comando I retornará uma lista, enquanto que os comandos II e III retornarão itens específicos citados.",
+                  "correct": false
+                },
+                {
+                  "id": "0dfcd658-f1d6-4aef-a644-7336ab4937ab",
+                  "description": "Os comandos I e II retornarão uma lista, enquanto que o comando III retornará o primeiro item apenas.",
+                  "correct": true
+                },
+                {
+                  "id": "3fbe59a4-204e-40b6-8182-a665690bd854",
+                  "description": "O comando I e II retornará uma lista se houver mais de um registro na tabela correspondente, enquanto que o comando III sempre retornará o primeiro registro específico.",
+                  "correct": false
+                },
+                {
+                  "id": "20aea181-1bb6-4909-9b05-fbd16b03194f",
+                  "description": "Todos os comandos retornam listas ou um registro específico, depende da quantidade de registros que existem na tabela.",
+                  "correct": false
+                },
+                {
+                  "id": "289f65f6-ae75-4d25-8580-fc400ef699a1",
+                  "description": "Todos os comandos retornam o primeiro registro de cada tabela específico mediante o filtro aplicado.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "dd3fab5d-3d7e-4ecf-9355-d1e66cf718ff",
+              "description": "Confira a lista de comandos abaixo:\r\n\r\nI - db_session.add(self)\r\nII - db_session.delete(self)\r\nIII - db_session.commit()\r\n\r\nQual alternativa abaixo melhor explica os comandos acima?",
+              "active": true,
+              "level": 1,
+              "time": 60,
+              "skill": "9da0cbd1-e335-4626-909d-90fd623de3b9",
+              "choices": [
+                {
+                  "id": "28b9d3cc-84c9-4de9-9f4c-e19286b573af",
+                  "description": "O comando III não é fundamental para alterar o banco de dados.",
+                  "correct": false
+                },
+                {
+                  "id": "b71506e0-106e-4289-af50-3816a68ebe73",
+                  "description": "O comando I adiciona um registro no banco de dados e o comando II interrompe a função de ser executada.",
+                  "correct": false
+                },
+                {
+                  "id": "7b4b5349-6711-425c-91f1-854c29aa23a4",
+                  "description": "O comando I adiciona uma tabela, enquanto que o comando II remove uma tabela.",
+                  "correct": false
+                },
+                {
+                  "id": "640dda39-c128-48df-9fbe-47a19da26267",
+                  "description": "O comando I adiciona um registro à uma tabela, enquanto que o comando II não existe, o correto é db_session.remove(self)",
+                  "correct": false
+                },
+                {
+                  "id": "f68f6c8b-3e6e-4597-9847-b63e082c0e9a",
+                  "description": "O comando II prepara a remoção de um elemento do banco de dados e o comando III executa o comando.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "dded023a-ebf2-428a-83ee-f6882774ceba",
+              "description": "No começo da aula foi ensinado o primeiro comando necessário para criar um banco de dados, qual dos exemplos abaixo corretamente expressa o comando:",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "cd99e16e-b2b2-4c30-8726-271e774b2461",
+              "choices": [
+                {
+                  "id": "f9bb12e4-6e1a-4e2f-88ee-32d4313c05c7",
+                  "description": "engine = create.engine('sqlite:///animaisfofos.db', convert_unicode=True)",
+                  "correct": false
+                },
+                {
+                  "id": "890f2288-5a6a-4a91-8f7a-e4045cb9c118",
+                  "description": "engine = create('sqlite:///jogos.db', convert_unicode=True)",
+                  "correct": false
+                },
+                {
+                  "id": "bcad6d84-93db-4147-a959-a791f545f5b5",
+                  "description": "engine(contatinhos.db, convert_unicode=True)",
+                  "correct": false
+                },
+                {
+                  "id": "772eabea-47eb-40da-9295-286178e24fe3",
+                  "description": "engine = create_engine('sqlite:///memes.db, convert_unicode=True')",
+                  "correct": false
+                },
+                {
+                  "id": "56aa2a46-83d9-4d8b-8926-66bd5c44bf40",
+                  "description": "engine = create_engine('sqlite:///veganos.db', convert_unicode=True)",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "51883080-78e1-4176-904b-ad0944f204dd",
+              "description": "Leia as sentenças sobre SOLite e assinale a alternativa correta. \r\nI – É o mecanismo de banco de dados mais usado do mundo. \r\nII – É uma biblioteca de linguagem A. \r\nIII – SQLite te permite montar uma instância de banco de dados sem que seja necessário fazer a instalação de um banco.",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "cd99e16e-b2b2-4c30-8726-271e774b2461",
+              "choices": [
+                {
+                  "id": "593ee3b0-b61c-41de-a605-38abb3d15edb",
+                  "description": "I e II estão corretas.",
+                  "correct": false
+                },
+                {
+                  "id": "b9dac478-50b3-4ea1-8ebb-db6d3cc55a4c",
+                  "description": "Todas estão corretas.",
+                  "correct": false
+                },
+                {
+                  "id": "a92d092e-7fcb-46c3-a7ab-ddbd66292c60",
+                  "description": "Apenas II está errada.",
+                  "correct": true
+                },
+                {
+                  "id": "b7e04a29-bbe1-4f24-882b-d82e4543563d",
+                  "description": "Apenas III está correta.",
+                  "correct": false
+                },
+                {
+                  "id": "2f8b40cc-58ba-40cd-91a9-b9ce2bdbe268",
+                  "description": "I e III estão erradas.",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "id": "fcad78bc-b2f8-4ed3-813c-0d82d3a6a8ae",
+              "description": "Qual a função do trecho de código abaixo?\r\ndef __repr__(self):",
+              "active": true,
+              "level": 1,
+              "time": 60,
+              "skill": "9da0cbd1-e335-4626-909d-90fd623de3b9",
+              "choices": [
+                {
+                  "id": "475f07d2-bb1b-463f-a8a3-7eff8d5faf42",
+                  "description": "É a função que retorna o nome da tabela de forma personalizada.",
+                  "correct": false
+                },
+                {
+                  "id": "aa00ed18-1ab9-489f-b705-9d5aec28e980",
+                  "description": "É a função que modifica um atributo específico de um registro da tabela.",
+                  "correct": false
+                },
+                {
+                  "id": "1c885aab-b964-49e5-b572-c85fb307394a",
+                  "description": "É uma função obrigatória para retornar dados da tabela ao realizar uma busca na tabela correspondente.",
+                  "correct": false
+                },
+                {
+                  "id": "02a6cac5-79b0-4ffa-9ec9-4920ded6247e",
+                  "description": "É a função que determina o nome da tabela.",
+                  "correct": false
+                },
+                {
+                  "id": "7997b170-e44b-4db2-bf7a-9aa4ac4ae680",
+                  "description": "É uma função opcional e estabelece o padrão de retorno dos dados da tabela ao realizar uma busca na tabela correspondente.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "d574796f-1906-4a50-b342-486bc3c624cc",
+              "description": "Observe o trecho de código abaixo:\r\nengine = create_engine('sqlite:///flores.db')\r\ndb_session = scoped_session(sessionmaker(autocommit=False, bind=engine))\r\nBase = declarative_base()\r\nBase.query = db_session.query_property()\r\n\r\nEsse trecho de código, junto com toda outra estrutura estava funcionando perfeitamente para cadastrar as flores Anis, Edelvais, Iberis, Jasmin, Papoila. Porém, quando foi registrar Peônia, Petúnia, Prímula ou Verônica, o banco de dados não cadastrava corretamente.\r\n\r\nA alternativa abaixo corresponde a alteração que deve ser feita:",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "cd99e16e-b2b2-4c30-8726-271e774b2461",
+              "choices": [
+                {
+                  "id": "036d04ca-4836-42d4-9031-dd4af07a7cd7",
+                  "description": "Base.query = db_session.query_property(convert_unicode=True)",
+                  "correct": false
+                },
+                {
+                  "id": "fa93675e-5fd9-429a-9fa5-8d25b47e783d",
+                  "description": "Base = declarative_base(bind=engine)",
+                  "correct": false
+                },
+                {
+                  "id": "c18c8132-f9f2-4a4d-83e1-525d00a2bb1c",
+                  "description": "db_session = scoped_session(sessionmaker(autocommit=True, bind=engine))",
+                  "correct": false
+                },
+                {
+                  "id": "4efef27d-8288-4ff7-b2e8-77fb2b15f683",
+                  "description": "db_session = scoped_session(sessionmaker(autocommit=False, binds=engine))",
+                  "correct": false
+                },
+                {
+                  "id": "0124099f-68f5-4919-a269-68d14d9348df",
+                  "description": "engine = create_engine('sqlite:///flores.db', convert_unicode=True)",
+                  "correct": true
+                }
+              ]
+            }
+          ]
+        },
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "d64c8564-6dcc-4e48-84d0-84f9a7abacae",
+        "active": true,
+        "name": "Manipulando banco de dados com SQLAlchemy",
+        "type": "audio",
+        "slug": "manipulando-banco-de-dados-com-sqlalchemy-2",
+        "content": {
+          "cover": "https://hermes.digitalinnovation.one/contents/cover/d64c8564-6dcc-4e48-84d0-84f9a7abacae.jpg",
+          "audio": "https://dio-hermes.s3-sa-east-1.amazonaws.com/contents/audio/d64c8564-6dcc-4e48-84d0-84f9a7abacae.mp3"
+        },
+        "completed": false,
+        "youtube_url": null,
+        "pdf_url": null
+      }
+    ],
+    "course": "47288d46-5127-4c7e-abb7-1bcf274f67e0",
+    "workload": 40,
+    "order": 6,
+    "active": true
+  },
+  {
+    "id": "9af36f4f-f638-4699-b9b3-d8542d67be29",
+    "name": "Rest Api com persistência em banco de dados",
+    "available": true,
+    "watched": true,
+    "completed": true,
+    "has_admob": false,
+    "score": 7,
+    "small_cover": null,
+    "large_cover": "https://hermes.digitalinnovation.one/lessons/3d1d6970-4e10-45f1-90be-b5dea2aceb5c_large.png",
+    "large_cover_disabled": "https://hermes.digitalinnovation.one/lessons/ad9056bc-aefc-46ce-ba0e-e52e868bc55f_large_disabled.png",
+    "available_message": null,
+    "description": "Aprenda a trabalhar com Rest Api aplicado ao banco de dados.",
+    "category": {
+      "id": "80b04dbf-a15d-4de7-aa19-c1022960bada",
+      "name": "",
+      "icon": "fla",
+      "color": "#300f15"
+    },
+    "author": {
+      "id": "6beaa9ec-34d1-4acb-9be9-1114eca84bcf",
+      "name": "Rafael Galleani",
+      "company": {
+        "id": "5892b2d5-eea7-4171-83de-ea09dee11e06",
+        "name": "NEXT Engineering",
+        "year": null,
+        "category": {
+          "id": "fba1b2b1-b3b9-494a-bf8f-dc2eb7f7c417",
+          "name": "Tecnologia da informação e serviços"
+        },
+        "website": "http://www.nextengineering.pt",
+        "photo": "https://hermes.digitalinnovation.one/users/company/5892b2d5-eea7-4171-83de-ea09dee11e06.png"
+      },
+      "position": "Python Developer",
+      "photo": "https://hermes.digitalinnovation.one/users/author/photos/6beaa9ec-34d1-4acb-9be9-1114eca84bcf.png",
+      "linkedin": "https://www.linkedin.com/in/rafael-galleani/#experience-section",
+      "github": null
+    },
+    "reference": {
+      "id": "a712b287-3b0a-4495-b379-edf179bb3487",
+      "name": "Trilhas Python",
+      "author": "Eduardo Pereira",
+      "isbn": "978-85-94188-69-4",
+      "cover": "https://hermes.digitalinnovation.one/books/a712b287-3b0a-4495-b379-edf179bb3487.png"
+    },
+    "next_content": "b51fa566-d7f6-438b-b475-733e1e9248b3",
+    "next_slug": "rest-api-com-persistencia-em-banco-de-dados",
+    "contents": [
+      {
+        "id": "b51fa566-d7f6-438b-b475-733e1e9248b3",
+        "active": true,
+        "name": "Rest Api com persistência em banco de dados",
+        "type": "video",
+        "slug": "rest-api-com-persistencia-em-banco-de-dados",
+        "content": "https://midia.digitalinnovation.one/32cea546-18e1-4cd9-81d6-8cec51e3ffcf/b51fa566-d7f6-438b-b475-733e1e92.ism/manifest(format=m3u8-aapl).m3u8",
+        "completed": false,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "d18a5428-b2df-458b-ac7a-18412a5ec28b",
+        "active": true,
+        "name": "Rest Api com autenticação",
+        "type": "video",
+        "slug": "rest-api-com-autenticacao",
+        "content": "https://midia.digitalinnovation.one/2df83d26-bb5d-4bbe-a67f-be737e2dd56a/d18a5428-b2df-458b-ac7a-18412a5e.ism/manifest(format=m3u8-aapl).m3u8",
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "38beaaf2-36c5-4a0a-a481-22115b0dd3aa",
+        "active": true,
+        "name": "Rest Api com persistência em banco de dados",
+        "type": "quiz",
+        "slug": "rest-api-com-persistencia-em-banco-de-dados-1",
+        "content": {
+          "id": "bf6f4b5f-b254-4667-aa77-ab2bc0fde0a8",
+          "question": [
+            {
+              "id": "f15c559a-8589-4c46-8bc2-6f7e9384a457",
+              "description": "Observe o seguinte trecho de código usado na aula:\r\n\r\ntry:\r\n  response = {\r\n    'nome':pessoa.nome,\r\n    'idade':pessoa.idade,\r\n    'id':pessoa.id\r\n  }\r\n_____________\r\n  response = {\r\n    'status':'error',\r\n    'mensagem':'Pessoa não encontrada'\r\n  }\r\n\r\nreturn response\r\n\r\nCom base na mensagem, qual foi o comando utilizado que substitui a lacuna para o erro específico contido na mensagem?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "bcf75623-cb7a-4af3-aa14-263659df0c40",
+                  "description": "try AttributeError:",
+                  "correct": false
+                },
+                {
+                  "id": "288e5779-14c7-46d4-a017-e0fa58de62c8",
+                  "description": "catch AttributeError:",
+                  "correct": false
+                },
+                {
+                  "id": "2810fa98-4de3-4733-a3ac-7354d582e7a7",
+                  "description": "AttributeError:",
+                  "correct": false
+                },
+                {
+                  "id": "08249670-b6f8-4e53-a74f-fc64bff672bb",
+                  "description": "except:",
+                  "correct": false
+                },
+                {
+                  "id": "8cff4a55-076b-4ba0-b564-8c6b49601451",
+                  "description": "except AttributeError:",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "55f2600e-14ec-4ccf-b568-4f5eae613356",
+              "description": "Os personagens de quadrinhos normalmente possuem uma identidade secreta, seja para atuarem como vilões ou heróis de uma história. Sendo assim, observe o seguinte trecho de código:\r\n\r\n{\r\n'nome':'Bruce Banner',\r\n'identidade_secreta': 'Hulk',\r\n'criador':'Stan Lee',\r\n'time':'Vingadores',\r\n'especie':'modificado por radiação'\r\n}\r\n\r\nConsiderando que Bruce Banner se transformará em sua identidade secreta, qual código abaixo é o correto?",
+              "active": true,
+              "level": 1,
+              "time": 120,
+              "skill": "2f733d15-d8bc-4f54-a5d4-ef59981d1bfe",
+              "choices": [
+                {
+                  "id": "81890d4b-1211-49a1-968b-914e5ae96b02",
+                  "description": "personagem.nome = Hulk",
+                  "correct": false
+                },
+                {
+                  "id": "8fc91433-3e14-4751-854d-6a0b3194ed30",
+                  "description": "personagem.nome = 'personagem.identidade_secreta'",
+                  "correct": false
+                },
+                {
+                  "id": "d6c971c7-4996-4369-9f56-c86e7807cbf8",
+                  "description": "personagem.identidade_secreta = personagem.nome",
+                  "correct": false
+                },
+                {
+                  "id": "fd29d56a-4df9-43b1-a384-f434bf3544f1",
+                  "description": "personagem.nome = personagem.Hulk",
+                  "correct": false
+                },
+                {
+                  "id": "baaeec6b-23e7-466e-92c5-13800e6f3882",
+                  "description": "personagem.nome = personagem.identidade_secreta",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "500ee4ca-0f80-422f-b65d-8f32cad44ec8",
+              "description": "Digamos que você tenha na sua carteira a seguinte quantia de dinheiro em notas:\r\n1 nota de 5 reais e 3 notas de 2 reais.\r\nVocê pretende comprar um doce fictício chamado Flaskters que custa 2 reais. Sendo assim, observe o trecho de código abaixo:\r\n\r\ndef delete(self, a):\r\n  b = Carteira.query.filter_by(c=d).first()\r\n  e.delete()\r\n\r\nO trecho de código acima possui letras (a, b, c, d, e) que precisam ser identificadas. Assinale a alternativa correta:",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "ac52b7e5-af9b-4365-95d5-a3a6acb560ec",
+                  "description": "A letra 'a' corresponde-se a letra 'c', enquanto que a letra 'b' corresponde-se a letra 'd'. A letra c é o registro encontrado na tabela Carteira.",
+                  "correct": false
+                },
+                {
+                  "id": "c71e7288-6561-433b-978e-3125284a6f44",
+                  "description": "A letra 'a' corresponde-se a letra 'b' e 'd', enquanto que a letra 'c' corresponde-se a letra 'e'. que também é o nome da coluna na tabela Carteira.",
+                  "correct": false
+                },
+                {
+                  "id": "917f955f-9cd3-4390-be8d-5d41d8186bf6",
+                  "description": "Não é possível identificar a função de cada letra.",
+                  "correct": false
+                },
+                {
+                  "id": "3f206cde-04be-4d77-aa43-97aa344a05b5",
+                  "description": "A letra 'a' corresponde-se a letra 'd', enquanto que a letra 'b' corresponde-se a letra 'e'. A letra c é o nome da tabela.",
+                  "correct": false
+                },
+                {
+                  "id": "efefa12d-500f-488f-81ed-65906ab9e59b",
+                  "description": "A letra 'a' corresponde-se a letra 'd', enquanto que a letra 'b' corresponde-se a letra 'e'. A letra c é o nome da coluna na tabela Carteira.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "8bdbf1fb-2f99-4f8d-a3b9-c80e69e6836a",
+              "description": "Considere que você queira listar todos os asteroides que existem no nosso sistema solar, com o seguinte trecho de código:\r\nasteroides = Asteroides.query.filter_by(id=0)\r\n\r\nCom base no código acima, é possível afirmar que:",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "fefd08e7-361d-4623-8e5e-3e25f9fff189",
+                  "description": "O nome do nosso sistema solar é Via Láctea e, portanto, id deveria ser igual a \"Via Láctea\" para funcionar.",
+                  "correct": false
+                },
+                {
+                  "id": "6984a779-4fd1-4795-a9f5-29e636a0811c",
+                  "description": "O nome do nosso sistema solar é Via Láctea e, portanto, ao invés de \"id=0\" deveria ser, por exemplo, \"sistemasolar='Via Láctea'\" para funcionar.",
+                  "correct": false
+                },
+                {
+                  "id": "96961c94-b272-4fb0-98ff-66ad207a0bc0",
+                  "description": "Só existem asteróides no nosso sistema solar.",
+                  "correct": false
+                },
+                {
+                  "id": "02b9f910-fbd0-4eaa-afd0-77f2853874ba",
+                  "description": "O comando \"filter_by(id=0)\" é a mesma coisa que \"all()\".",
+                  "correct": false
+                },
+                {
+                  "id": "494bc02f-4c40-4b80-b061-3ebaad8e80fe",
+                  "description": "O nome do nosso sistema solar é Via Láctea e refere-se ao id igual a 0.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "b720bcf6-9ce8-41a2-b8d0-55d8027cfda2",
+              "description": "Considere que você recebeu uma lista completa de asteroides que existem no nosso sistema solar e você precisa retornar essa lista da forma mais simples possível, contendo id, nome e velocidade deles. Com base nisso você usaria o seguinte código:",
+              "active": true,
+              "level": 1,
+              "time": 60,
+              "skill": "a7428108-9472-42d3-a7b0-f81806917fa0",
+              "choices": [
+                {
+                  "id": "f4f24aed-415b-4b20-89a6-cf5e8fb4282d",
+                  "description": "response = [{ast.id, ast.nome, ast.velocidade} for ast in asteroides]",
+                  "correct": false
+                },
+                {
+                  "id": "388e7280-667b-4fe8-a6b7-6294d8edb2ee",
+                  "description": "response = [{'id':i.id, 'nome':i.nome, 'velocidade':i.velocidade} for ast in asteroides]",
+                  "correct": false
+                },
+                {
+                  "id": "338d740a-7492-4ef6-89fb-568a2b3c1780",
+                  "description": "retorno = [{'id':id, 'nome':nome, 'velocidade':velocidade} for ast in asteroides]",
+                  "correct": false
+                },
+                {
+                  "id": "67e177e8-04f8-448e-9d9a-157a5aa695b7",
+                  "description": "response = [id:i.id, nome:i.nome, velocidade:i.velocidade} for i in asteroides]",
+                  "correct": false
+                },
+                {
+                  "id": "ebbe50f4-da84-457c-9fc6-a2a0e5aac402",
+                  "description": "response = [{'id':ast.id, 'nome':ast.nome, 'velocidade':ast.velocidade} for ast in asteroides]",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "4ba8b630-1ce3-43c7-8540-e49ced3a1165",
+              "description": "Considere que um historiador precisa registrar o nome de uma religião antiga descoberta recentemente, sendo assim você irá receber dele o nome do fundador, o nome da religião em si, a etnia e a possível data de prosperidade da religião.\r\nPara isso assinale a opção que contenha a linha de comando que seja capaz de realizar essa função:",
+              "active": true,
+              "level": 1,
+              "time": 60,
+              "skill": "70c8f2cf-d667-4f3b-964f-2d7c6be0fd64",
+              "choices": [
+                {
+                  "id": "3d9690d2-1be4-43c4-9375-8ac959261c8a",
+                  "description": "religiao = Religioes([fundador=['fundador'], nome=['nome'], etnia=['etnia'], data=['data'])",
+                  "correct": false
+                },
+                {
+                  "id": "e3a4789c-76c4-4790-94f7-0d5b62e3c5bc",
+                  "description": "religiao = Religioes([fundador=dados[fundador], nome=dados[nome], etnia=dados[etnia], data=dados[data])",
+                  "correct": false
+                },
+                {
+                  "id": "89d822ae-f4d2-4017-9d8c-6c656f87ce61",
+                  "description": "religiao = Religioes([fundador='fundador', nome='nome', etnia='etnia', data='data')",
+                  "correct": false
+                },
+                {
+                  "id": "c5a7853b-01c4-47b7-aba5-ff7c5aab592c",
+                  "description": "religiao = Religioes([fundador:dados('fundador'), nome:dados('nome'), etnia:dados('etnia'), data:dados('data'))",
+                  "correct": false
+                },
+                {
+                  "id": "cf028d3f-bab1-496d-bf4e-aea672719357",
+                  "description": "religiao = Religioes([fundador=dados['fundador'], nome=dados['nome'], etnia=dados['etnia'], data=dados['data'])",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "1e89b875-d9e5-4f93-8d22-80e0a33b5be5",
+              "description": "Observe o seguinte trecho de código:\r\nreturn USUARIO.get(login) == senha\r\n\r\nO que esse trecho de código está fazendo?",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "9cb42fd3-0a9f-4280-bccf-52e12dee81ca",
+                  "description": "Caso o dicionário USUARIO contenha uma chave de valor relacionada a variável login, o return devolverá True, caso contrário retornará False.",
+                  "correct": false
+                },
+                {
+                  "id": "bd3ab943-96f3-4968-b890-3b93b0ce8cda",
+                  "description": "Caso o dicionário USUARIO contenha uma chave de valor relacionada a variável login e o valor da chave no dicionário esteja associado ao valor da variável senha, retornará False, caso contrário retornará True.",
+                  "correct": false
+                },
+                {
+                  "id": "ec3d715e-e52e-494b-ae70-f2083fe4847b",
+                  "description": "Caso o dicionário USUARIO contenha uma chave de valor relacionada a variável senha e o valor da chave no dicionário esteja associado ao valor da variável login, retornará False, caso contrário retornará True.",
+                  "correct": false
+                },
+                {
+                  "id": "60b9586f-eb32-45c7-a9d4-359f4cebfc18",
+                  "description": "Caso o dicionário USUARIO contenha uma chave de valor relacionada a variável login e o valor da chave no dicionário esteja associado ao valor da variável senha, retornará True, caso contrário precisa fazer um return específico para retornar False.",
+                  "correct": false
+                },
+                {
+                  "id": "16ebed88-2d34-4984-a32d-781f849f558f",
+                  "description": "Caso o dicionário USUARIO contenha uma chave de valor relacionada a variável login e o valor da chave no dicionário esteja associado ao valor da variável senha, retornará True, caso contrário retornará False.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "2f1685d1-a0a8-422a-b6f3-356224dc4f2d",
+              "description": "O comando que permite o aparecimento de uma tela para inserir o nome de usuário e senha é:",
+              "active": true,
+              "level": 1,
+              "time": 40,
+              "skill": "05d80a17-db67-44d1-aa0b-8b5dbda56dd8",
+              "choices": [
+                {
+                  "id": "510d2c28-6d1a-48fa-8246-c809f0e363f4",
+                  "description": "@auth.verify_password()",
+                  "correct": false
+                },
+                {
+                  "id": "586f5768-f657-405e-a877-68a2fed8818f",
+                  "description": "@auth.login_required",
+                  "correct": false
+                },
+                {
+                  "id": "d37d97b5-0289-4dc6-996b-e49ddcb90e6b",
+                  "description": "@auth.login_required()",
+                  "correct": false
+                },
+                {
+                  "id": "6501c8ca-eeda-4854-8471-668289b22342",
+                  "description": "@auth.password_required",
+                  "correct": false
+                },
+                {
+                  "id": "86228a95-0b51-456a-af3f-babe6d158fb4",
+                  "description": "@auth.verify_password",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "8753d0e7-ebee-43de-933d-1eaec45eb4df",
+              "description": "Observe o seguinte trecho de código:\r\n\r\nclass Usuarios(Base):\r\n  __tablename__='usuarios'\r\n  id = Column(Integer, primary_key=True)\r\n  login = Column(String(20))\r\n  senha = Column(String(20))\r\n  \r\nCom base no trecho acima é possível afirmar que:",
+              "active": true,
+              "level": 1,
+              "time": 60,
+              "skill": "9da0cbd1-e335-4626-909d-90fd623de3b9",
+              "choices": [
+                {
+                  "id": "be5d157f-8003-453f-bcb2-fdb9c72ede45",
+                  "description": "Mesmo que mude a quinta linha para \"senha = Column(String(20), unique=True)\" não funcionará, pois a senha é secreta.",
+                  "correct": false
+                },
+                {
+                  "id": "16cc28a1-ca35-48e1-a783-a594fa1a0f01",
+                  "description": "A tabela atual está sem a coluna ID, portanto deve ser inserida para correta funcionalidade.",
+                  "correct": false
+                },
+                {
+                  "id": "efbff5b4-64ef-41d1-916c-21d605980f46",
+                  "description": "A coluna senha aceitará apenas números, enquanto que login aceitará apenas letras.",
+                  "correct": false
+                },
+                {
+                  "id": "9041164c-8774-4828-a8d0-ee8df250e59c",
+                  "description": "Há duas respostas corretas.",
+                  "correct": false
+                },
+                {
+                  "id": "a9fd1af3-1065-4733-95c5-6ca7aa0041e3",
+                  "description": "Para impedir que um mesmo login seja registrado, é necessário alterar a quarta linha para \"login = Column(String(20), unique=True)",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "id": "6885adaf-41d0-4c1a-8c05-90ed4e571e00",
+              "description": "Observe o seguinte trecho de código:\r\n\r\ndef verificacao(login, senha):\r\n  return Users.query.filter_by(a=b, c=d).first()\r\n\r\nCom base no trecho de código acima é possível afirmar que:\r\n\r\nI - A variável a e a variável c são os nomes das colunas no banco de dados Users.\r\nII - A variável b pode ser igual a senha e a variável d pode ser igual a login.\r\nIII - A variável b deve ser igual a login e a variável d deve ser igual a senha.\r\n\r\nEstão incorretas as afirmativas:",
+              "active": true,
+              "level": 1,
+              "time": 120,
+              "skill": "aed92545-f843-425e-99b3-4eb9a092c46b",
+              "choices": [
+                {
+                  "id": "55341307-41db-419c-a264-78049116c083",
+                  "description": "Apenas II e III.",
+                  "correct": false
+                },
+                {
+                  "id": "42b17bcb-5187-44b6-8564-85ca260ae484",
+                  "description": "Apenas I e II.",
+                  "correct": false
+                },
+                {
+                  "id": "2b8ee38a-8c16-4f02-83db-86c410a115e8",
+                  "description": "Apenas III.",
+                  "correct": false
+                },
+                {
+                  "id": "1813a3d2-29f6-4089-9be9-eef2a9239905",
+                  "description": "Apenas I.",
+                  "correct": false
+                },
+                {
+                  "id": "0ee04ba7-c5a6-4b7d-ad71-a786645cb4d2",
+                  "description": "Apenas II.",
+                  "correct": true
+                }
+              ]
+            }
+          ]
+        },
+        "completed": true,
+        "youtube_url": null,
+        "pdf_url": null
+      },
+      {
+        "id": "d22d6ee9-c4ca-4635-8563-ad29f2e37819",
+        "active": true,
+        "name": "Rest Api com persistência em banco de dados",
+        "type": "audio",
+        "slug": "rest-api-com-persistencia-em-banco-de-dados-2",
+        "content": {
+          "cover": "https://hermes.digitalinnovation.one/contents/cover/d22d6ee9-c4ca-4635-8563-ad29f2e37819.jpg",
+          "audio": "https://dio-hermes.s3-sa-east-1.amazonaws.com/contents/audio/d22d6ee9-c4ca-4635-8563-ad29f2e37819.mp3"
+        },
+        "completed": false,
+        "youtube_url": null,
+        "pdf_url": null
+      }
+    ],
+    "course": "47288d46-5127-4c7e-abb7-1bcf274f67e0",
+    "workload": 50,
+    "order": 7,
+    "active": true
+  }
+]
